@@ -1,0 +1,12 @@
+.author-box {
+    padding: 2rem;
+    margin:2rem 0;
+}
+.author-box hr {
+    margin-bottom: 1rem;
+}
+@media (min-width: 544px) {
+    .author-box p, .author-box .personal-sm {
+        text-align: left;
+    }
+}

@@ -1,0 +1,159 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post grid and filter ultimate\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-13 13:11+0000\n"
+"PO-Revision-Date: 2018-09-13 13:21+0000\n"
+"Last-Translator: Gustavo Almeida <gustavo@galileosoft.com.br>\n"
+"Language-Team: Português do Brasil\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: includes/shortcode/pgafu-postgrid-filter.php:71
+msgid "All"
+msgstr "Todos"
+
+#: includes/admin/pgafu-how-it-work.php:195
+msgid "All Shortcodes"
+msgstr "Todos os Shortcodes"
+
+#: includes/admin/pgafu-how-it-work.php:208
+msgid "Check plugin document for shortcode parameters and demo for designs."
+msgstr ""
+"Verifique a documentação do plugin para parâmetros de shortcodes e demos dos "
+"designs"
+
+#: includes/admin/pgafu-how-it-work.php:210
+msgid "Demo for Designs"
+msgstr "Demo de desgin"
+
+#: includes/pgafu-functions.php:121 includes/pgafu-functions.php:151
+msgid "Design 1"
+msgstr "Design 1"
+
+#: includes/pgafu-functions.php:122 includes/pgafu-functions.php:152
+msgid "Design 2"
+msgstr "Design 2"
+
+#: includes/admin/pgafu-how-it-work.php:209
+msgid "Documentation"
+msgstr "Documentação"
+
+#. Description of the plugin
+msgid ""
+"Easy to add and display post grid on your website with or without "
+"categoryies filter."
+msgstr ""
+"Display e Grid de posts de maneira facil no seu site, com ou sem filtro de "
+"categorias"
+
+#: includes/admin/pgafu-how-it-work.php:171
+msgid "Geeting Started with Post Slider"
+msgstr "Começando com o Post Slide"
+
+#: includes/admin/pgafu-how-it-work.php:229
+msgid "Help to improve this plugin!"
+msgstr "Nos ajude a melhor esse plugin!"
+
+#: includes/admin/pgafu-how-it-work.php:118
+msgid "How It Works"
+msgstr "Como isso funciona"
+
+#: includes/admin/pgafu-how-it-work.php:163
+msgid "How It Works - Display and shortcode"
+msgstr "Como isso funciona - Exibição e shortcodes"
+
+#: includes/admin/pgafu-how-it-work.php:22
+msgid "How it works, our plugins and offers"
+msgstr "Como isso funciona - Nossos plugins e ofertas "
+
+#: includes/admin/pgafu-how-it-work.php:183
+msgid "How Shortcode Works"
+msgstr "Como os Shortcodes Funcionam"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.wponlinesupport.com"
+msgstr "https://www.wponlinesupport.com"
+
+#: includes/admin/pgafu-how-it-work.php:205
+msgid "Need Support?"
+msgstr "Precisa de ajuda?"
+
+#: includes/pgafu-functions.php:106
+msgid "Next »"
+msgstr "Proximo »"
+
+#: includes/admin/pgafu-how-it-work.php:121
+msgid "Our Plugins"
+msgstr "Nossos Plugins "
+
+#: includes/admin/pgafu-how-it-work.php:22
+msgid "Post grid and filter - How It Works"
+msgstr "Post Grid e Filtro - Como funciona"
+
+#. Name of the plugin
+msgid "Post grid and filter ultimate"
+msgstr "Post Grid e filtro Ultimate "
+
+#: includes/admin/pgafu-how-it-work.php:198
+msgid "Post Grid Shortcode"
+msgstr "Post grid Shortcode"
+
+#: includes/admin/pgafu-how-it-work.php:199
+msgid "Post grid Shortcode. Where you can use 4 designs"
+msgstr "Post grid Shortcode,  voce pode usar 4 designs"
+
+#: templates/grid/design-2.php:57 templates/grid/design-1.php:56
+#: templates/filter/design-2.php:43 templates/filter/design-1.php:42
+msgid "Read More"
+msgstr "Leia Mais!"
+
+#: includes/admin/pgafu-how-it-work.php:187
+msgid "Step-1. Create a page like Latet Post OR add the shortcode in a page."
+msgstr ""
+"Passo 1 - Criar uma página como \"Ultimos Posts\" ou adicionar o shortcode e "
+"uma página ja existente."
+
+#: includes/admin/pgafu-how-it-work.php:175
+msgid ""
+"Step-1. This plugin create a tab under \"Post grid and filter ultimate – How "
+"It Works\"."
+msgstr ""
+"Passo-2 - Esse plugin cria uma tab abaido de  \"Post Grid e Filtro Ultimate -"
+" Como funciona\"\n"
+
+#: includes/admin/pgafu-how-it-work.php:188
+msgid "Step-2. Put below shortcode as per your need."
+msgstr "Passo 2 - Utilize o Shortcode conforme as suas necessidades  "
+
+#: includes/admin/pgafu-how-it-work.php:176
+msgid ""
+"Step-2. This plugin get all the POST from WordPress post section with a "
+"simple shortcode"
+msgstr ""
+"Passo 2 - Esse plugin captura todos os seus posts com um simples shortcode"
+
+#: includes/admin/pgafu-how-it-work.php:103
+msgid ""
+"There was an error retrieving the data from the server. Please try again "
+"later."
+msgstr ""
+"Existe algum erro impedido o recebimento de dados do servidor. Por favor "
+"tente mais tarde."
+
+#. Author of the plugin
+msgid "WP Online Support"
+msgstr "WP Suporte Online"
+
+#: includes/admin/pgafu-how-it-work.php:127
+msgid "WPOS Offers"
+msgstr "WPOS Ofertas "
+
+#: includes/pgafu-functions.php:105
+msgid "« Previous"
+msgstr "« Anterio"

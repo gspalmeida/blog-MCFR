@@ -1,0 +1,49 @@
+/* Aside: Similar to a quick note. Use these for posts like quick updates or custom status’. */
+.format-aside {
+
+}
+/* Gallery: A post containing a gallery of images.*/
+.format-gallery {
+
+}
+/* Image: A single image, rather than a gallery.*/
+.format-image p {
+    margin-top: 1rem;
+    visibility: visible;
+    animation-delay: 0.3s;
+    animation-name: fadeIn;
+    text-align: justify;
+}
+.format-image img{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+    display: block;
+    width: 90%;
+    height: auto;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+/* Video: A post that has one, or several, videos. The WordPress codex also points out that a single URL may indicate the source of a video, rather than an embedded video.*/
+.format-video {
+
+}
+/* Audio: An audio file or playlist.*/
+.format-audio {
+    margin-top: 0;
+}
+/* Link: A simple link to an external site.*/
+.format-link {
+
+}
+/* Quote: A quoted block of text, usually with attribution to a quote’s author.*/
+.format-quote {
+
+}
+/* Status: Similar to aside, but much more about a simple one-line status.*/
+.format-status {
+
+}
+/* Chat: A full chat transcript.*/
+.format-chat {
+
+}

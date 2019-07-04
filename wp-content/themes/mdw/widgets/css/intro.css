@@ -1,0 +1,80 @@
+/*Intro*/
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+div[id^=mdw_intro] .view {
+    background: url("http://mdbootstrap.com/images/regular/people/img%20(54).jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@media (max-width: 768px) {
+    .full-bg-img,
+    .view {
+        position: relative;
+    }
+}
+
+.description {
+    padding-bottom: 3rem;
+    color: #fff
+}
+
+@media (max-width: 992px) {
+    .description {
+        text-align: center;
+    }
+}
+/* Navigation*/
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #2E2E2E;
+}
+
+/*intro sign-up*/
+
+.description {
+    padding-top: 25%;
+    padding-bottom: 3rem;
+    color: #fff
+}
+
+@media (max-width: 992px) {
+    .description {
+        padding-top: 7rem;
+        text-align: center;
+    }
+}
+
+
+.carousel-indicators li {
+    background: #45526E!important;
+}
+.list-group .fa-check {
+    color: green;
+}
+.flex-center p.paragraph-singup-widget{
+    margin: 30px;
+}
+
+
+/*Minimalist*/
+
+.full-bg-img .card {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+button[type='submit']{
+    padding: .5rem 1rem;
+}
+form[name='mdw_contact_form']{
+    text-align: center;
+}

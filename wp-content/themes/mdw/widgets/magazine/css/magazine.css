@@ -1,0 +1,445 @@
+.content-bleed {
+    margin: 0 -32px;
+}
+
+.hero-three-items {
+    height: -webkit-calc(85vh - 4rem);
+    height: calc(85vh - 4rem);
+    clear: both;
+    display: block;
+    margin: 0 auto;
+    max-height: 43em;
+    min-height: 34em;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+.hero-three-items .hero-block.primary {
+    float: left;
+    height: 100%;
+    position: relative;
+    width: 66.66667%;
+}
+
+.hero-three-items .hero-block {
+    -webkit-transform-style: preserve-3d;
+    overflow: hidden;
+    position: relative;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+article.c6 {
+    background-color: #E53935;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+.hero-three-items .hero-block::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.hero-three-items .hero-block .img-link {
+    -webkit-transform-style: preserve-3d;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    text-indent: -9999em;
+    transition: .4s;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+a.c2 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e9/Official_portrait_of_Barack_Obama.jpg);
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    -webkit-transition: color .1s linear;
+    -moz-transition: color .1s linear;
+    transition: color .1s linear;
+    color: #1875d1;
+    text-decoration: none;
+}
+
+a {
+    background: transparent;
+}
+
+.hero-three-items .hero-block.primary .text-box {
+    bottom: 2em;
+    left: 2em;
+    min-height: 13em;
+    padding: 1.5em 2em 2.25em;
+    position: absolute;
+    width: 15em;
+}
+
+div.c5 {
+    background-color: #E53935;
+}
+
+.hero-three-items .text-box {
+    position: absolute;
+}
+
+.hero-three-items h2 {
+    margin-bottom: .3em;
+}
+
+.headline-2 {
+    font-size: 1.95313em;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 1.2;
+}
+
+
+a.c3 {
+    color: #ffffff;
+}
+
+a {
+    background: transparent;
+}
+
+.headline-2 {
+    font-size: 1.95313em;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 1.2;
+}
+
+.secondary-text {
+    color: #424242;
+    font-size: .875em;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.6;
+}
+
+.hero-three-items .hero-block .tag {
+    opacity: .8;
+}
+
+a.c3 {
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    background: transparent;
+}
+
+.hero-three-items .hero-block .tag {
+    opacity: .8;
+}
+p.c4 {
+    color: #ffffff;
+}
+
+.content-block p+p {
+    margin-top: 1.25em;
+}
+
+.hero-three-items .hero-block .img-link:hover {
+    opacity: .9;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.hero-three-items .hero-block.secondary {
+    float: left;
+    height: 50%;
+    width: 33.33333%;
+}
+
+.hero-three-items .hero-block {
+    -webkit-transform-style: preserve-3d;
+    overflow: hidden;
+    position: relative;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+article.c9 {
+    background-color: #1B5E20;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+.hero-three-items .hero-block::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.hero-three-items .hero-block.secondary .img-link {
+    bottom: 6.5em;
+    height: auto;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.hero-three-items .hero-block .img-link {
+    -webkit-transform-style: preserve-3d;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    text-indent: -9999em;
+    transition: .4s;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+a.c7 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e9/Official_portrait_of_Barack_Obama.jpg);
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-three-items .hero-block.secondary .text-box {
+    bottom: 0;
+    height: 6.5em;
+    left: 0;
+    padding: .75em 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.hero-three-items .text-box {
+    position: absolute;
+}
+
+div.c8 {
+    background-color: #1B5E20;
+}
+
+.hero-three-items h4 {
+    margin-bottom: .2em;
+}
+
+.headline-4 {
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: .005em;
+    line-height: 1.3;
+}
+
+.hero-three-items .hero-block::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.hero-three-items .hero-block.secondary {
+    float: left;
+    height: 50%;
+    width: 33.33333%;
+}
+
+.hero-three-items .hero-block {
+    -webkit-transform-style: preserve-3d;
+    overflow: hidden;
+    position: relative;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+article.c12 {
+    background-color: #1565C0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+a.c10 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e9/Official_portrait_of_Barack_Obama.jpg);
+}
+
+div.c11 {
+    background-color: #1565C0;
+}
+
+.hero-three-items h4 {
+    margin-bottom: .2em;
+}
+
+.headline-4 {
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: .005em;
+    line-height: 1.3;
+}
+
+@media screen and (max-width: 62.5em) {
+    .hero-three-items .hero-block.primary {
+        float: none;
+        height: 60%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 62.5em) {
+    .hero-three-items .hero-block.secondary {
+        height: 40%;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 62.5em) {
+    .headline-4, h4, h5, h6 {
+        font-size: 1.2em;
+        font-weight: 400;
+        letter-spacing: .005em;
+        line-height: 1.3;
+    }
+}
+
+@media screen and (max-width: 62.5em) {
+    .headline-4 {
+        font-size: 1.2em;
+        font-weight: 400;
+        letter-spacing: .005em;
+        line-height: 1.3;
+    }
+}
+
+.content-block {
+    box-sizing: content-box;
+    max-width: 86em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 32px;
+}
+
+@media screen and (max-width: 37.4375em) {
+    .content-block {
+        padding: 0 16px;
+    }
+}
+
+@media screen and (max-width: 37.4375em) {
+    .content-bleed {
+        margin: 0 -16px;
+    }
+}
+
+@media screen and (max-width: 37.4375em) {
+    .hero-three-items {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 62.5em) {
+    .hero-three-items {
+        height: 50em;
+    }
+}
+
+@media screen and (max-width: 37.4375em) {
+    .hero-three-items .hero-block.primary {
+        height: 25em;
+    }
+}
+
+@media screen and (max-width: 62.5em) {
+    .hero-three-items .hero-block.primary {
+        float: none;
+        height: 60%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 37.4375em) {
+    .hero-three-items .hero-block.primary .text-box {
+        bottom: 1em;
+        left: 1em;
+        min-height: 0;
+        padding: 1em;
+        right: 1em;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 37.4375em) {
+    .headline-2{
+        font-size: 1.42383em;
+        font-weight: 400;
+        letter-spacing: 0;
+        line-height: 1.3;
+    }
+}
+
+@media screen and (max-width: 37.4375em) {
+    .hero-three-items .hero-block.primary .text-box .description {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 37.4375em) {
+    .hero-three-items .hero-block.secondary {
+        float: none;
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 37.4375em) {
+    .hero-three-items .hero-block.secondary .img-link {
+        height: 100%;
+        width: 8em;
+    }
+}
+
+@media screen and (max-width: 37.4375em) {
+    .hero-three-items .hero-block.secondary .text-box {
+        height: auto;
+        margin-left: 8em;
+        min-height: 6em;
+        position: static;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 37.4375em) {
+    .headline-4{
+        font-size: 1.125em;
+        font-weight: 400;
+        letter-spacing: .005em;
+        line-height: 1.3;
+    }
+}

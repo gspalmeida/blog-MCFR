@@ -1,0 +1,43 @@
+[class^='pick-color'] {
+    width: 100%;
+    margin-top: 0!important;
+    position: relative;
+    opacity: 0.98;
+}
+.pick-color-bootstrap, .pick-color-mdb, .pick-color-dark {
+    height: 50%;
+}
+.pick-color-full-pallete {
+    height: 100%;
+    width: 7%;
+    float: left;
+    margin:0!important;
+}
+.full-palette-col {
+    height: 0.8rem;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
+@media only screen and (min-width: 500px){
+    .full-palette-col { height: 1rem; }
+}
+@media only screen and (min-width: 800px){
+    .full-palette-col { height: 1.6rem; }
+}
+@media only screen and (min-width: 1200px){
+    .full-palette-col { height: 2.33rem; }
+}
+
+.col-xs-3, .col-xs-4 {
+    margin-top: 0!important;
+    height: 12rem;
+}
+.pickedColorStage {
+    margin-top: 6px!important;
+    border-radius: 2px;
+    float: left;
+    padding: 0.3rem;
+    text-align: center;
+    color: #fff;
+    width: 60%;
+}

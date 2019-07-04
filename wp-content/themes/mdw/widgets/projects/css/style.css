@@ -1,0 +1,121 @@
+.state-home-focus {
+    background-color: #04a7f4;
+    position: relative;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.state-home-focus-areas {
+    height: 256px;
+    width: 100%;
+    position: relative;
+}
+.focus-area {
+    height: 100%;
+    width: 25%;
+    background-position: center;
+    background-size: cover;
+    float: left;
+    padding: 10px;
+    position: relative;
+}
+.focus-button {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+a {
+    text-decoration: none;
+}
+a, body, html {
+    color: #424242;
+}
+a {
+    background-color: transparent;
+}
+.focus-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    width: 100%;
+}
+.focus-icon {
+    height: 38px;
+    width: 38px;
+    margin: 10px auto;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.focus-icon span.icon {
+    height: 100%;
+    width: 100%;
+    display: block;
+    fill: #fff;
+    color: #fff;
+}
+
+.waves-effect, ul[rn-carousel] {
+    overflow: hidden;
+}
+.focus-tint {
+    -webkit-transition: background-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out;
+    transition: background-color .3s ease-in-out;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.4);
+    pointer-events: none;
+    z-index: 1;
+}
+a:active, a:hover {
+    outline: 0;
+}
+.focus-text {
+    color: #fff;
+    text-align: center;
+}
+.h3 {
+    font-size: 28px;
+    line-height: 1.2142857143;
+}
+
+.h1, .h2, .h3, .h4, .h5 {
+    font-weight: 300;
+    margin: 0;
+}
+@media screen and (max-width: 991px){
+    .state-home-focus-areas {
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .focus-area {
+        height: 50%;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .h3 {
+        font-size: 22px;
+    }
+}
+.focus-button:hover .focus-tint {
+    background-color: rgba(0,0,0,.5);
+}

@@ -1,0 +1,113 @@
+#menu-navbar-mcfr{
+  display: flex;
+  align-items: center;
+}
+#menu-item-92{
+  margin-left: auto;
+}
+#menu-item-92 a{
+  border-radius: 2px;
+  border: 2px solid #fff;
+  color: #fff!important;
+  background-color: transparent;
+  font-size: .8rem;
+  margin: 6px;
+  white-space: normal!important;
+  word-wrap: break-word;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  line-height: 1.25;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+ul .pgafu-filter .pgafu-filtr-cat{
+  font-weight: 300;
+  border: 2px solid #000;
+  color: #000!important;
+  border-radius: 2px;
+  margin: 6px;
+  white-space: normal!important;
+  word-wrap: break-word;
+  background-color: transparent;
+  text-transform: uppercase;
+  transition: .2s ease-out;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  -webkit-tap-highlight-color: transparent;
+}
+ul .pgafu-filter .pgafu-filtr-cat a{
+  background-color: transparent;
+}
+.pgafu-filter li.pgafu-active-filtr a {
+  background-color: #b9b4b4 !important;
+  color: #000;
+  font-weight: 400;
+}
+
+
+
+
+.pgafu-post-grid .pgafu-post-grid-content{
+  width: 100%;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  position: relative;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+.pgafu-post-grid .pgafu-post-grid-content .pgafu-post-image-bg{
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 1;
+  -webkit-tap-highlight-color: transparent;
+}
+h2 .pgafu-post-title{
+  margin-bottom: 0.75rem !important;
+  word-wrap: break-word;
+  font-weight: 300;
+  font-size: 1.5rem !important;
+  line-height: 1.1 !important;
+}
+h2 .pgafu-post-title a {
+  color: #0275d8;
+  transition: .4s;
+  background-color: transparent;
+}
+.pgafu-post-content .pgafu-post-short-content{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.pgafu-post-grid-main.pgafu-design-1 .readmorebtn {
+  border-color: #ad495c !important;
+  color: #ad495c!important;
+  padding: .85rem 2.13rem !important;
+  font-weight: 300 !important;
+  border: 2px solid !important;
+  background-color: transparent !important;
+  font-size: .8rem !important;
+  border-radius: 2px !important;
+  margin: 6px !important;
+  white-space: normal!important;
+  word-wrap: break-word !important;
+  text-transform: uppercase !important;
+  transition: .2s ease-out !important;
+  cursor: pointer !important;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12) !important;
+  background-image: none !important;
+  display: inline-block !important;
+  line-height: 1.25 !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+  -webkit-tap-highlight-color: transparent !important;
+}

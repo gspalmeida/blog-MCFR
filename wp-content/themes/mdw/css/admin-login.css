@@ -1,0 +1,14 @@
+body{
+    background: #f1f1f1;
+}
+.login form .input, .login form input[type=checkbox], .login input[type=text]{
+    background: #fff;
+}
+[type=checkbox]:checked, [type=checkbox]:not(:checked){
+    position: static;
+    visibility: visible;
+}
+.login form .forgetmenot{
+    width: 100%;
+    float: none;
+}

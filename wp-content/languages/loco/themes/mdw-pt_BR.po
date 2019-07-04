@@ -1,0 +1,1915 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MDW\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-10 13:57+0000\n"
+"PO-Revision-Date: 2018-09-13 14:19+0000\n"
+"Last-Translator: Gustavo Almeida <gustavo@galileosoft.com.br>\n"
+"Language-Team: Português do Brasil\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. Name of the template
+msgid "Under Construction"
+msgstr "Em Desenvolvimento"
+
+#. Name of the template
+msgid "Jumbotron Page"
+msgstr "Jumbotron Page"
+
+#: template-jumbotron.php:83
+msgid ""
+"Register for free and get access to amazing framework and beautiful "
+"components"
+msgstr ""
+"Registre-se gratuitamente e adquira acesso gratuito a esse Framework "
+"incrível e a lindos componentes "
+
+#: template-jumbotron.php:94 mdw-config/includes/update.php:34
+#: mdw-config/before/includes/mdw-update-display.php:18
+msgid "Download"
+msgstr "Download"
+
+#: template-jumbotron.php:124 template-column-listing.php:179
+#: template-full-carousel.php:173 template-corporate.php:115
+#: template-half-carousel.php:79 template-half-carousel.php:126
+msgid "No posts found"
+msgstr "Nenhum Post Encontrado"
+
+#: searchform.php:12 searchform.php:26 searchform.php:41
+msgctxt "placeholder"
+msgid "Search"
+msgstr "Buscar no Blog"
+
+#: searchform.php:15 searchform.php:29 searchform.php:43
+msgctxt "label"
+msgid "Search"
+msgstr "Buscar no Blog"
+
+#: searchform.php:39
+msgctxt "label"
+msgid "Search for:"
+msgstr "Buscar Por:"
+
+#: content-default.php:43 content-titleup.php:12
+msgid "By"
+msgstr "Por "
+
+#: content-default.php:43
+msgid "on"
+msgstr "em"
+
+#: content-default.php:43
+msgid "in"
+msgstr "em"
+
+#: content-default.php:49 content-coverphoto.php:23 content.php:129
+#: content-titleup.php:50
+msgid "Do you want to share?"
+msgstr "Você deseja Compartilhar?"
+
+#: content-default.php:104 content-coverphoto.php:78 content-titleup.php:105
+msgid "you might also like"
+msgstr "Você também pode gostar:"
+
+#. Name of the template
+msgid "Landing Page"
+msgstr "Landing Page"
+
+#: template-landing-page.php:64
+msgid ""
+"Please assign widgets to this Landing Page Intro Area in admin dashboard."
+msgstr ""
+"Por favor adicione algum Widget a Landing Page Intro, no painel "
+"administrativo"
+
+#: template-landing-page.php:65
+msgid "Please assign widgets to this landing page in admin dashboard."
+msgstr ""
+"Por favor adicione algum Widget a landing page, no painel administrativo"
+
+#. Name of the template
+msgid "Ecommerce"
+msgstr "Ecommerce"
+
+#: template-ecommerce.php:64 template-ecommerce.php:92
+msgid "Please assign widgets to this ecommerce page in admin dashboard."
+msgstr ""
+"Por favor adicione algum Widget a essa página de ecomerce, no painel "
+"administrativo"
+
+#: search.php:52
+msgid "No results for: "
+msgstr "Nenhum resultado para:"
+
+#: search.php:54
+msgid "results for"
+msgstr "resultados para "
+
+#: search.php:82
+msgid "by"
+msgstr "por "
+
+#: codestore.php:7
+msgid "Assign an icon and color for all of your categories:"
+msgstr "Atribuir um ícone a cor para todas as suas Categorias:"
+
+#: codestore.php:53 mdw-config/before/mdw-config-main-display.php:31
+#: mdw-config/includes/update.php:29
+#: mdw-config/before/includes/mdw-update-display.php:13
+msgid "Update"
+msgstr "Atualizar "
+
+#. Name of the template
+msgid "Column Listing Page"
+msgstr "Column Listing Page"
+
+#: template-column-listing.php:132 template-full-carousel.php:158
+#: template-corporate.php:91 template-half-carousel.php:67 content.php:86
+#: components/basic-card.php:21 templates/blog/template-8.php:103
+#: templates/blog/template-12.php:85 components/categories/content-cat2.php:38
+#: components/categories/content-cat1.php:46
+#: components/author/content-author-listing.php:69
+#: widgets/features/templates/features-template-1.php:69
+#: widgets/features/templates/features-template-2.php:69
+#: widgets/magazine/templates/magazine-template-6.php:53
+msgid "Read more"
+msgstr "Ler mais!"
+
+#: single.php:83 templates/blog/template-13.php:103
+msgid "By "
+msgstr "Por  "
+
+#: single.php:86
+msgid " on "
+msgstr "em"
+
+#: single.php:142 single.php:157 index.php:107 index.php:122 page.php:112
+#: page.php:127 archive.php:122
+msgid "Please assign some widgets"
+msgstr "Por favor adicione algum Widget"
+
+#: comments.php:33 comments.php:65
+msgid "Comment navigation"
+msgstr "Comentário de Navegação"
+
+#: comments.php:35 comments.php:67
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentários antigos"
+
+#: comments.php:38 comments.php:70
+msgid "Newer Comments &rarr;"
+msgstr "Comentários mais recentes &rarr;"
+
+#: comments.php:47 inc/helpers.php:277 inc/helpers.php:329 inc/helpers.php:576
+msgid "Comments"
+msgstr "Comentários"
+
+#: comments.php:84
+msgid "Comments are closed."
+msgstr "Os comentários foram Bloqueados"
+
+#: comments.php:96
+msgid "Your name"
+msgstr "Seu nome"
+
+#: comments.php:103
+msgid "Your email"
+msgstr "Seu email"
+
+#: comments.php:108
+msgid "Your website"
+msgstr "Seu Site"
+
+#: comments.php:125 comments.php:137
+msgid "Your message"
+msgstr "Sua Mensagem"
+
+#: comments.php:142
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"Logado como <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Deslogar?</a>"
+
+#. Name of the template
+msgid "Blog"
+msgstr "Blog"
+
+#: template-blog.php:91 template-blog.php:110 template-magazine.php:104
+msgid "Please assign widgets to this blog page in admin dashboard."
+msgstr ""
+"Por favor adicione algum Widget a essa página de blog, no painel "
+"administrativo"
+
+#. Name of the template
+msgid "Full Carousel Page"
+msgstr "Full Carousel Page"
+
+#: template-full-carousel.php:185 template-half-carousel.php:91
+msgid "Previous"
+msgstr "Anterior"
+
+#: template-full-carousel.php:189 template-half-carousel.php:95
+msgid "Next"
+msgstr "Próximo"
+
+#: 404.php:24
+msgid "That's an error"
+msgstr "Erro"
+
+#: 404.php:25
+msgid "The requested error was not found on this server. That's all we know."
+msgstr ""
+"O erro da requisição não foi encontrado no servidor. Isso é tudo que sabemos "
+"por enquanto."
+
+#: 404.php:26
+msgid "Return to home"
+msgstr "Voltar para o home"
+
+#. Name of the template
+msgid "Magazine"
+msgstr "Magazine"
+
+#: template-magazine.php:63
+msgid "Please assign widgets to this magazine header in admin dashboard."
+msgstr ""
+"Por favor adicione algum Widget ao magazine header, no painel administrativo"
+
+#: template-magazine.php:74
+msgid "Please assign widgets to this magazine page in admin dashboard."
+msgstr ""
+"Por favor adicione algum Widget a essa página de magazine, no painel "
+"administrativo"
+
+#. Name of the template
+msgid "Corporate Page"
+msgstr "Página Corporativa"
+
+#. Name of the template
+msgid "Half Carousel Page"
+msgstr "Half Carousel Page"
+
+#: content-page.php:19
+msgid "Pages:"
+msgstr "Páginas"
+
+#: content.php:53 templates/blog/template-4.php:58
+msgid "Written by "
+msgstr "Escrito por "
+
+#: icons.php:3
+msgid "Search for icon"
+msgstr "Procurar por Icones"
+
+#: archive.php:57
+msgid "Browsing:"
+msgstr "Procurando em:"
+
+#: archive.php:66
+msgid "Daily archives "
+msgstr "Arquivos Diários"
+
+#: archive.php:68
+msgid "Monthly archives "
+msgstr "Arquivos Mensais"
+
+#: archive.php:70
+msgid "Annual archives "
+msgstr "Arquivos Anuais"
+
+#: archive.php:72
+msgid "Archives"
+msgstr "Arquivos"
+
+#: components/sidenav.php:17
+msgid ""
+"Please assign Primary Menu in Wordpress Admin -> Appearance -> Menus -> "
+"Manage Locations"
+msgstr ""
+"Por favor marque \"Primary Menu\" em \"Wordpress Admin\" -> \"Appearance\" ->"
+" \"Menus\" -> \"Manage Locations\""
+
+#: components/author-box.php:5
+msgid "Published by"
+msgstr "Publicado por "
+
+#: components/navbar.php:40
+msgid ""
+"Please assign Sidenav Menu in Wordpress Admin -> Appearance -> Menus -> "
+"Manage Locations"
+msgstr ""
+"Por favor marque \"Sidenav Menu\" em \"Wordpress Admin\" -> \"Appearance\" ->"
+" \"Menus\" -> \"Manage Locations\""
+
+#: components/navbar.php:92
+msgid ""
+"Please assign Navbar Menu in Wordpress Admin -> Appearance -> Menus -> "
+"Manage Locations"
+msgstr ""
+"Por favor marque \"Navbar Menu\" em \"Wordpress Admin\" -> \"Appearance\" -> "
+"\"Menus\" -> \"Manage Locations\""
+
+#: inc/infinite-scroll.php:6
+msgid "Load more"
+msgstr "Carregar Mais"
+
+#: inc/comments.php:16
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/comments.php:16 inc/comments.php:38
+msgid "(Edit)"
+msgstr "(Editar)"
+
+#: inc/comments.php:31
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#. 1: date, 2: time
+#: inc/comments.php:37
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+#: inc/comments.php:44
+msgid "Your comment is awaiting moderation."
+msgstr "Seu comentário esta aguardando aprovação"
+
+#: inc/animations.php:83
+msgid "Animation"
+msgstr "Animações"
+
+#: inc/pagination.php:106
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: inc/pagination.php:107
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#. Base ID
+#: widgets/cta/cta.php:28
+msgid "MDW CTA"
+msgstr "MDW CTA"
+
+#: widgets/cta/cta.php:29
+msgid "Custom heading, paragraph, background and action button"
+msgstr "Custom heading, paragraph, background and action button"
+
+#: widgets/cta/cta.php:30 widgets/features/features.php:30
+#: widgets/projects/project.php:30 widgets/tabs/tabs.php:30
+#: widgets/team/team.php:30
+#: widgets/full-width-section/full-width-section.php:29
+#: widgets/accordion/accordion.php:30 widgets/contact/contact.php:29
+#: widgets/divider/divider.php:30 widgets/countdown/countdown.php:30
+#: widgets/testimonials/testimonials.php:30 widgets/counter/counter.php:30
+msgid "landing"
+msgstr "landing"
+
+#: widgets/cta/cta.php:166 widgets/features/features.php:504
+#: widgets/projects/project.php:202 widgets/projects/project.php:418
+#: widgets/projects/project.php:605 widgets/projects/project.php:805
+#: widgets/team/team.php:222 widgets/team/team.php:327
+#: widgets/team/team.php:428 widgets/team/team.php:543
+#: widgets/team/team.php:552 widgets/team/team.php:655
+#: widgets/team/team.php:760 widgets/team/team.php:865
+#: widgets/team/team.php:966 widgets/team/team.php:1067
+#: widgets/streak/streak.php:138 widgets/carousel/carousel.php:191
+#: widgets/full-width-section/full-width-section.php:138
+#: widgets/magazine/magazine.php:197 widgets/magazine/magazine.php:325
+#: widgets/magazine/magazine.php:399 widgets/magazine/magazine.php:576
+#: widgets/magazine/magazine.php:625 widgets/magazine/magazine.php:674
+#: widgets/contact/contact.php:194 widgets/contact/contact.php:432
+#: widgets/divider/divider.php:160 widgets/countdown/countdown.php:160
+#: widgets/testimonials/testimonials.php:200
+#: widgets/testimonials/testimonials.php:279
+#: widgets/testimonials/testimonials.php:357
+#: widgets/testimonials/testimonials.php:463
+#: widgets/ecommerce/ecommerce.php:186 widgets/ecommerce/ecommerce.php:272
+#: widgets/ecommerce/ecommerce.php:358 widgets/ecommerce/ecommerce.php:434
+#: widgets/ecommerce/ecommerce.php:491 widgets/blogs/blogs.php:210
+#: widgets/blogs/blogs.php:297 widgets/blogs/blogs.php:371
+#: widgets/blogs/blogs.php:897 widgets/product-listing/product-listing.php:172
+#: widgets/counter/counter.php:185 widgets/counter/counter.php:261
+#: widgets/intros/CTA/cta.php:130
+#: widgets/intros/intro-signup/intro-signup.php:122
+#: widgets/intros/video/video.php:129
+#: widgets/intros/minimalist-form/minimalist-form.php:120
+#: widgets/intros/contact-form/contact-form.php:123
+#: widgets/intros/app/app.php:126
+msgid "Title"
+msgstr "Título "
+
+#: widgets/cta/cta.php:177 widgets/pricings/pricings.php:197
+#: widgets/pricings/pricings.php:304 widgets/pricings/pricings.php:399
+#: widgets/pricings/pricings.php:496 widgets/pricings/pricings.php:617
+#: widgets/features/features.php:241 widgets/features/features.php:340
+#: widgets/features/features.php:370 widgets/features/features.php:468
+#: widgets/features/features.php:516 widgets/features/features.php:631
+#: widgets/features/features.php:745 widgets/features/features.php:762
+#: widgets/projects/project.php:214 widgets/projects/project.php:430
+#: widgets/projects/project.php:617 widgets/projects/project.php:817
+#: widgets/team/team.php:231 widgets/team/team.php:336
+#: widgets/team/team.php:437 widgets/team/team.php:491
+#: widgets/team/team.php:664 widgets/team/team.php:769
+#: widgets/team/team.php:874 widgets/team/team.php:975
+#: widgets/team/team.php:1076
+#: widgets/full-width-section/full-width-section.php:147
+#: widgets/magazine/magazine.php:209 widgets/magazine/magazine.php:337
+#: widgets/magazine/magazine.php:411 widgets/contact/contact.php:206
+#: widgets/contact/contact.php:444 widgets/testimonials/testimonials.php:212
+#: widgets/testimonials/testimonials.php:369
+#: widgets/ecommerce/ecommerce.php:198 widgets/ecommerce/ecommerce.php:284
+#: widgets/ecommerce/ecommerce.php:370 widgets/ecommerce/ecommerce.php:446
+#: widgets/ecommerce/ecommerce.php:503 widgets/blogs/blogs.php:222
+#: widgets/blogs/blogs.php:309 widgets/blogs/blogs.php:383
+#: widgets/blogs/blogs.php:909 widgets/counter/counter.php:195
+#: widgets/counter/counter.php:271 widgets/intros/CTA/cta.php:142
+#: widgets/intros/intro-signup/intro-signup.php:132
+#: widgets/intros/video/video.php:141
+#: widgets/intros/minimalist-form/minimalist-form.php:129
+#: widgets/intros/contact-form/contact-form.php:135
+#: widgets/intros/app/app.php:138
+msgid "Content"
+msgstr "Conteúdo "
+
+#: widgets/cta/cta.php:188 widgets/cta/cta.php:199
+#: widgets/pricings/pricings.php:340 widgets/pricings/pricings.php:436
+#: widgets/features/features.php:533 widgets/features/features.php:773
+#: widgets/projects/project.php:353 widgets/projects/project.php:551
+#: widgets/projects/project.php:744 widgets/projects/project.php:851
+#: widgets/team/team.php:263 widgets/team/team.php:368
+#: widgets/team/team.php:479 widgets/team/team.php:584
+#: widgets/team/team.php:591 widgets/team/team.php:696
+#: widgets/team/team.php:801 widgets/team/team.php:906
+#: widgets/team/team.php:1007 widgets/team/team.php:1108
+#: widgets/carousel/carousel.php:254 widgets/testimonials/testimonials.php:257
+#: widgets/testimonials/testimonials.php:332
+#: widgets/testimonials/testimonials.php:439
+#: widgets/testimonials/testimonials.php:498 widgets/counter/counter.php:205
+#: widgets/counter/counter.php:281 mdw-config/includes/author-settings.php:70
+#: widgets/intros/CTA/cta.php:160
+#: widgets/intros/intro-signup/intro-signup.php:149
+#: widgets/intros/video/video.php:162
+#: widgets/intros/minimalist-form/minimalist-form.php:147
+#: widgets/intros/contact-form/contact-form.php:152
+#: widgets/intros/app/app.php:157 widgets/intros/app/app.php:175
+#: mdw-config/before/includes/mdw-config-category-customizing.php:156
+msgid "Select Image"
+msgstr "Selecionar Imagem"
+
+#: widgets/cta/cta.php:210 widgets/streak/streak.php:164
+#: widgets/full-width-section/full-width-section.php:175
+#: widgets/intros/video/video.php:175
+#: widgets/intros/minimalist-form/minimalist-form.php:157
+#: widgets/intros/contact-form/contact-form.php:164
+msgid "Button text"
+msgstr "Texto do Botão"
+
+#: widgets/cta/cta.php:222 widgets/streak/streak.php:174
+#: widgets/full-width-section/full-width-section.php:185
+#: widgets/intros/minimalist-form/minimalist-form.php:167
+msgid "Button URL"
+msgstr "URL do Botão"
+
+#: widgets/cta/cta.php:230
+msgid "Optional image position:"
+msgstr "Posição da imagem(opicional):"
+
+#: widgets/cta/cta.php:232 widgets/features/features.php:555
+msgid "Left"
+msgstr "Esquerda"
+
+#: widgets/cta/cta.php:233 widgets/features/features.php:556
+msgid "Right"
+msgstr "Direita"
+
+#: widgets/cta/cta.php:251 widgets/pricings/pricings.php:745
+#: widgets/projects/project.php:914 widgets/tabs/tabs.php:511
+#: widgets/team/team.php:1175 widgets/streak/streak.php:194
+#: widgets/carousel/carousel.php:322
+#: widgets/full-width-section/full-width-section.php:205
+#: widgets/magazine/magazine.php:729 widgets/accordion/accordion.php:221
+#: widgets/contact/contact.php:538 widgets/divider/divider.php:185
+#: widgets/countdown/countdown.php:246
+#: widgets/testimonials/testimonials.php:550
+#: widgets/ecommerce/ecommerce.php:570 widgets/blogs/blogs.php:1096
+#: widgets/product-listing/product-listing.php:240
+#: widgets/counter/counter.php:347 widgets/intros/CTA/cta.php:222
+#: widgets/intros/intro-signup/intro-signup.php:188
+#: widgets/intros/video/video.php:218
+#: widgets/intros/contact-form/contact-form.php:232
+#: widgets/intros/app/app.php:236
+msgid "Page to display widget:"
+msgstr "Página para mostrar o widget:"
+
+#. Base ID
+#: widgets/pricings/pricings.php:28
+msgid "MDW Pricings"
+msgstr "MDW Pricings"
+
+#: widgets/pricings/pricings.php:29
+msgid "Display pricing"
+msgstr "Mostrar os preços"
+
+#: widgets/pricings/pricings.php:30 widgets/ecommerce/ecommerce.php:30
+#: widgets/product-listing/product-listing.php:30
+msgid "ecommerce"
+msgstr "ecommerce"
+
+#: widgets/pricings/pricings.php:192 widgets/pricings/pricings.php:297
+#: widgets/pricings/pricings.php:394 widgets/pricings/pricings.php:491
+#: widgets/pricings/pricings.php:612 widgets/features/features.php:234
+#: widgets/features/features.php:363
+msgid "Title:"
+msgstr "Título:"
+
+#: widgets/pricings/pricings.php:200 widgets/pricings/pricings.php:307
+#: widgets/pricings/pricings.php:402 widgets/pricings/pricings.php:499
+#: widgets/pricings/pricings.php:620
+msgid "Card "
+msgstr "Card "
+
+#: widgets/pricings/pricings.php:208 widgets/pricings/pricings.php:315
+#: widgets/pricings/pricings.php:410 widgets/pricings/pricings.php:507
+#: widgets/pricings/pricings.php:628
+msgid "Pricing title "
+msgstr "Título do Preço"
+
+#: widgets/pricings/pricings.php:219 widgets/pricings/pricings.php:326
+#: widgets/pricings/pricings.php:421 widgets/pricings/pricings.php:518
+#: widgets/pricings/pricings.php:639
+msgid "Price "
+msgstr "Preço"
+
+#: widgets/pricings/pricings.php:226 widgets/pricings/pricings.php:527
+msgid "Background color"
+msgstr "Cor do Background"
+
+#: widgets/pricings/pricings.php:256 widgets/pricings/pricings.php:353
+#: widgets/pricings/pricings.php:450 widgets/features/features.php:449
+msgid "Feature "
+msgstr "Funcionalidade"
+
+#: widgets/pricings/pricings.php:271 widgets/pricings/pricings.php:368
+#: widgets/pricings/pricings.php:465 widgets/pricings/pricings.php:585
+#: widgets/pricings/pricings.php:708 widgets/projects/project.php:309
+#: widgets/projects/project.php:506 widgets/projects/project.php:700
+#: widgets/intros/CTA/cta.php:189 widgets/intros/app/app.php:190
+msgid "Button text "
+msgstr "Texto do Botão"
+
+#: widgets/pricings/pricings.php:282 widgets/pricings/pricings.php:379
+#: widgets/pricings/pricings.php:476 widgets/pricings/pricings.php:596
+#: widgets/pricings/pricings.php:719 widgets/intros/CTA/cta.php:201
+#: widgets/intros/app/app.php:202
+msgid "Button href "
+msgstr "Botão href"
+
+#: widgets/pricings/pricings.php:302 widgets/features/features.php:239
+msgid "Content:"
+msgstr "Conteúdo:"
+
+#: widgets/pricings/pricings.php:572 widgets/pricings/pricings.php:695
+msgid "Pricing text"
+msgstr "Texto do Preço"
+
+#: widgets/pricings/pricings.php:648
+msgid "Background gradient"
+msgstr "Background gradiente"
+
+#: widgets/pricings/pricings.php:650
+msgid "Blue"
+msgstr "Azul"
+
+#: widgets/pricings/pricings.php:651
+msgid "Red"
+msgstr "Red"
+
+#: widgets/pricings/pricings.php:652
+msgid "Dark"
+msgstr "Dark"
+
+#: widgets/pricings/pricings.php:653
+msgid "Grey"
+msgstr "Grey"
+
+#: widgets/pricings/pricings.php:655
+msgid "Deep-orange"
+msgstr "Deep-orange"
+
+#: widgets/pricings/pricings.php:656
+msgid "Graphite"
+msgstr "Graphite"
+
+#: widgets/pricings/pricings.php:748 widgets/features/features.php:900
+#: widgets/projects/project.php:917 widgets/team/team.php:1178
+#: widgets/streak/streak.php:197 widgets/carousel/carousel.php:325
+#: widgets/full-width-section/full-width-section.php:208
+#: widgets/magazine/magazine.php:732 widgets/contact/contact.php:541
+#: widgets/testimonials/testimonials.php:553
+#: widgets/ecommerce/ecommerce.php:573
+#: widgets/product-listing/product-listing.php:243
+#: widgets/intros/CTA/cta.php:225
+#: widgets/intros/intro-signup/intro-signup.php:191
+#: widgets/intros/video/video.php:221
+#: widgets/intros/minimalist-form/minimalist-form.php:252
+#: widgets/intros/contact-form/contact-form.php:235
+#: widgets/intros/app/app.php:239
+msgid "All pages"
+msgstr "Todas as Páginas"
+
+#: widgets/pricings/pricings.php:776 widgets/features/features.php:931
+#: widgets/projects/project.php:949 widgets/team/team.php:1209
+#: widgets/carousel/carousel.php:356 widgets/magazine/magazine.php:763
+#: widgets/contact/contact.php:572 widgets/countdown/countdown.php:279
+#: widgets/testimonials/testimonials.php:584
+#: widgets/ecommerce/ecommerce.php:601 widgets/blogs/blogs.php:1136
+#: widgets/product-listing/product-listing.php:271
+msgid "Box layout"
+msgstr "Box layout"
+
+#: widgets/pricings/pricings.php:779 widgets/features/features.php:934
+#: widgets/projects/project.php:952 widgets/team/team.php:1212
+#: widgets/carousel/carousel.php:359 widgets/magazine/magazine.php:766
+#: widgets/contact/contact.php:575 widgets/countdown/countdown.php:282
+#: widgets/testimonials/testimonials.php:587
+#: widgets/ecommerce/ecommerce.php:604 widgets/blogs/blogs.php:1139
+#: widgets/product-listing/product-listing.php:274
+msgid "Boxed"
+msgstr "Boxed"
+
+#: widgets/pricings/pricings.php:780 widgets/features/features.php:935
+#: widgets/projects/project.php:953 widgets/team/team.php:1213
+#: widgets/carousel/carousel.php:360 widgets/magazine/magazine.php:767
+#: widgets/contact/contact.php:576 widgets/countdown/countdown.php:283
+#: widgets/testimonials/testimonials.php:588
+#: widgets/ecommerce/ecommerce.php:605 widgets/blogs/blogs.php:1140
+#: widgets/product-listing/product-listing.php:275
+msgid "Full width"
+msgstr "Full width"
+
+#. Base ID
+#: widgets/features/features.php:28
+msgid "MDW Features"
+msgstr "MDW Features"
+
+#: widgets/features/features.php:29
+msgid "Features"
+msgstr "Funcionalidades"
+
+#: widgets/features/features.php:247 widgets/features/features.php:376
+#: widgets/features/features.php:565 widgets/projects/project.php:265
+#: widgets/projects/project.php:462 widgets/projects/project.php:655
+#: widgets/carousel/carousel.php:217
+msgid "Feed posts"
+msgstr "Feed de posts"
+
+#: widgets/features/features.php:250 widgets/features/features.php:379
+#: widgets/features/features.php:568 widgets/projects/project.php:268
+#: widgets/projects/project.php:465 widgets/projects/project.php:658
+#: widgets/carousel/carousel.php:214
+msgid "Customize"
+msgstr "Customizar "
+
+#: widgets/features/features.php:261 widgets/features/features.php:390
+#: widgets/features/features.php:654
+msgid "Posts per page :"
+msgstr "Posts por Página:"
+
+#: widgets/features/features.php:268 widgets/features/features.php:396
+msgid "Show read more button"
+msgstr "Mostrar botão de \"Leia Mais!\""
+
+#: widgets/features/features.php:282 widgets/features/features.php:410
+#: widgets/features/features.php:668 widgets/projects/project.php:380
+#: widgets/projects/project.php:569 widgets/projects/project.php:769
+#: widgets/magazine/magazine.php:232 widgets/magazine/magazine.php:282
+#: widgets/magazine/magazine.php:357 widgets/magazine/magazine.php:433
+#: widgets/magazine/magazine.php:483 widgets/magazine/magazine.php:533
+#: widgets/blogs/blogs.php:242 widgets/blogs/blogs.php:330
+#: widgets/blogs/blogs.php:404 widgets/blogs/blogs.php:454
+#: widgets/blogs/blogs.php:515 widgets/blogs/blogs.php:576
+#: widgets/blogs/blogs.php:636 widgets/blogs/blogs.php:721
+#: widgets/blogs/blogs.php:781 widgets/blogs/blogs.php:856
+#: widgets/blogs/blogs.php:930 widgets/blogs/blogs.php:992
+#: widgets/blogs/blogs.php:1053
+msgid "Categories:"
+msgstr "Categorias:"
+
+#: widgets/features/features.php:306 widgets/features/features.php:434
+msgid "Add feature"
+msgstr "Adicionar  funcionalidade"
+
+#: widgets/features/features.php:310 widgets/features/features.php:438
+#: widgets/features/features.php:584
+msgid "Delete feature"
+msgstr "Deletar funcionalidade"
+
+#: widgets/features/features.php:321 widgets/features/features.php:595
+msgid "Feature"
+msgstr "Funcionalidade"
+
+#: widgets/features/features.php:335 widgets/features/features.php:622
+msgid "Text: "
+msgstr "Texto:"
+
+#: widgets/features/features.php:339 widgets/features/features.php:626
+msgid "Description: "
+msgstr "Descrição:"
+
+#: widgets/features/features.php:368 widgets/features/features.php:467
+#: mdw-config/includes/general-info.php:33
+#: mdw-config/before/includes/mdw-general-display.php:16
+msgid "Description:"
+msgstr "Descrição:"
+
+#: widgets/features/features.php:463
+msgid "Text:"
+msgstr "Texto:"
+
+#: widgets/features/features.php:471
+msgid "Link URL:"
+msgstr "URL do Link:"
+
+#: widgets/features/features.php:475
+msgid "Link text:"
+msgstr "Texto do Link:"
+
+#: widgets/features/features.php:540
+msgid "Align text"
+msgstr "Alinhar Texto"
+
+#: widgets/features/features.php:543
+msgid "Center"
+msgstr "Center"
+
+#: widgets/features/features.php:544
+msgid "Top"
+msgstr "Top"
+
+#: widgets/features/features.php:545
+msgid "Bottom"
+msgstr "Bottom"
+
+#: widgets/features/features.php:552
+msgid "Align image"
+msgstr "Alinhar Imagem"
+
+#: widgets/features/features.php:580
+msgid "Add feature "
+msgstr "Adicionar  funcionalidade"
+
+#: widgets/features/features.php:733
+msgid "Title :"
+msgstr "Título:"
+
+#: widgets/features/features.php:743
+msgid "Description :"
+msgstr "Descrição:"
+
+#: widgets/features/features.php:792 widgets/features/features.php:810
+#: widgets/features/features.php:834 widgets/features/features.php:852
+#: widgets/features/features.php:876
+#: woocommerce/single-product/short-description.php:38
+msgid "Description"
+msgstr "Descrição"
+
+#: widgets/features/features.php:897
+#: widgets/intros/minimalist-form/minimalist-form.php:249
+msgid "Page to display widget: "
+msgstr "Página para mostrar o widget:"
+
+#. Base ID
+#: widgets/projects/project.php:28
+msgid "MDW Project"
+msgstr "MDW Project"
+
+#: widgets/projects/project.php:29
+msgid "Display your best projects"
+msgstr "Mostrar \"nossos melhores projetos\""
+
+#: widgets/projects/project.php:252 widgets/projects/project.php:450
+#: widgets/projects/project.php:641 widgets/projects/project.php:874
+#: widgets/contact/contact.php:461
+msgid "Icon text "
+msgstr "Texto do Ícone"
+
+#: widgets/projects/project.php:286 widgets/projects/project.php:483
+#: widgets/projects/project.php:677
+msgid "Title "
+msgstr "Título "
+
+#: widgets/projects/project.php:298 widgets/projects/project.php:495
+#: widgets/projects/project.php:689 widgets/projects/project.php:886
+#: widgets/team/team.php:275 widgets/team/team.php:603
+#: widgets/team/team.php:708 widgets/team/team.php:813
+#: widgets/team/team.php:1120
+msgid "Content "
+msgstr "Conteúdo"
+
+#: widgets/projects/project.php:321 widgets/projects/project.php:518
+#: widgets/projects/project.php:712
+msgid "Button URL "
+msgstr "URL do Botão"
+
+#: widgets/projects/project.php:826
+msgid "Image on the left"
+msgstr "Imagem à esquerda"
+
+#: widgets/projects/project.php:831
+msgid "Image on the right"
+msgstr "Imagem à direita"
+
+#: widgets/projects/project.php:925 widgets/team/team.php:1186
+#: widgets/streak/streak.php:205 widgets/carousel/carousel.php:333
+#: widgets/full-width-section/full-width-section.php:216
+#: widgets/magazine/magazine.php:740 widgets/testimonials/testimonials.php:561
+msgid "(empty title)"
+msgstr "(arquivo vazio)"
+
+#. Base ID
+#: widgets/tabs/tabs.php:28
+msgid "MDW Tabs"
+msgstr "MDW Tabs"
+
+#: widgets/tabs/tabs.php:29
+msgid "MDW Tabs allows you to toggle content on your pages"
+msgstr "MDW Tabs permitem a você trocar os conteúdos dentro da sua página"
+
+#: widgets/tabs/tabs.php:211 widgets/tabs/tabs.php:264
+#: widgets/tabs/tabs.php:317 widgets/tabs/tabs.php:370
+#: widgets/tabs/tabs.php:423
+msgid "Add tab "
+msgstr "Adicionar tab"
+
+#: widgets/tabs/tabs.php:215 widgets/tabs/tabs.php:268
+#: widgets/tabs/tabs.php:321 widgets/tabs/tabs.php:374
+#: widgets/tabs/tabs.php:427 widgets/accordion/accordion.php:176
+msgid "Delete group "
+msgstr "Deletar Grupo"
+
+#: widgets/tabs/tabs.php:230 widgets/tabs/tabs.php:283
+#: widgets/tabs/tabs.php:336 widgets/tabs/tabs.php:389
+#: widgets/tabs/tabs.php:442
+msgid "Tab "
+msgstr "Tab "
+
+#: widgets/tabs/tabs.php:233 widgets/tabs/tabs.php:286
+#: widgets/tabs/tabs.php:339 widgets/tabs/tabs.php:392
+#: widgets/tabs/tabs.php:445 widgets/accordion/accordion.php:194
+msgid "Group name "
+msgstr "Nome do Grupo"
+
+#: widgets/tabs/tabs.php:237 widgets/tabs/tabs.php:290
+#: widgets/tabs/tabs.php:343 widgets/tabs/tabs.php:396
+#: widgets/tabs/tabs.php:449 widgets/accordion/accordion.php:198
+msgid "Group content "
+msgstr "Conteudo do Grupo"
+
+#: widgets/tabs/tabs.php:476 widgets/magazine/magazine.php:597
+#: widgets/magazine/magazine.php:646 widgets/magazine/magazine.php:695
+msgid "Category:"
+msgstr "Categorias:"
+
+#: widgets/tabs/tabs.php:491
+msgid "Post number:"
+msgstr "Número do Post:"
+
+#. Base ID
+#: widgets/team/team.php:28
+msgid "MDW Team"
+msgstr "MDW Team"
+
+#: widgets/team/team.php:29
+msgid "Team members listing!"
+msgstr "Membros da Equipe!"
+
+#: widgets/team/team.php:236 widgets/team/team.php:452
+#: widgets/team/team.php:557 widgets/team/team.php:669
+#: widgets/team/team.php:774 widgets/team/team.php:1081
+msgid "Add member "
+msgstr "Adicionar Membro"
+
+#: widgets/team/team.php:240 widgets/team/team.php:345
+#: widgets/team/team.php:456 widgets/team/team.php:561
+#: widgets/team/team.php:673 widgets/team/team.php:778
+#: widgets/team/team.php:883 widgets/team/team.php:984
+#: widgets/team/team.php:1085
+msgid "Delete member "
+msgstr "Deletar Membro"
+
+#: widgets/team/team.php:255 widgets/team/team.php:471
+#: widgets/team/team.php:576 widgets/team/team.php:688
+#: widgets/team/team.php:793 widgets/team/team.php:1100
+msgid "Member "
+msgstr "Membro"
+
+#: widgets/team/team.php:267 widgets/team/team.php:483
+#: widgets/team/team.php:595 widgets/team/team.php:700
+#: widgets/team/team.php:805 widgets/team/team.php:1112
+#: widgets/testimonials/testimonials.php:226
+#: widgets/testimonials/testimonials.php:295
+#: widgets/testimonials/testimonials.php:387
+#: widgets/testimonials/testimonials.php:502
+msgid "Name "
+msgstr "Nome"
+
+#: widgets/team/team.php:271 widgets/team/team.php:487
+#: widgets/team/team.php:599 widgets/team/team.php:704
+#: widgets/team/team.php:809 widgets/team/team.php:1116
+#: widgets/testimonials/testimonials.php:399
+#: widgets/testimonials/testimonials.php:506
+msgid "Job "
+msgstr "Trabalho"
+
+#: widgets/team/team.php:306 widgets/team/team.php:407
+#: widgets/team/team.php:522 widgets/team/team.php:634
+#: widgets/team/team.php:739 widgets/team/team.php:844
+#: widgets/team/team.php:945 widgets/team/team.php:1046
+#: widgets/team/team.php:1151
+msgid "Icon url "
+msgstr "URL do ícone"
+
+#: widgets/team/team.php:341 widgets/team/team.php:879
+#: widgets/team/team.php:980
+msgid "Add member"
+msgstr "Adicionar Membro"
+
+#: widgets/team/team.php:360 widgets/team/team.php:898
+#: widgets/team/team.php:999
+msgid "Member"
+msgstr "Membro"
+
+#: widgets/team/team.php:372 widgets/team/team.php:910
+#: widgets/team/team.php:1011 widgets/counter/counter.php:242
+#: widgets/counter/counter.php:324
+msgid "Name"
+msgstr "Nome"
+
+#: widgets/team/team.php:376 widgets/team/team.php:914
+#: widgets/team/team.php:1015
+msgid "Job"
+msgstr "Trabalho"
+
+#: widgets/team/team.php:441
+msgid "Members per row"
+msgstr "Membro por linha"
+
+#: widgets/team/team.php:589
+msgid "Face Image"
+msgstr "Imagem do rosto"
+
+#. Base ID
+#: widgets/streak/streak.php:27
+msgid "MDW Streak"
+msgstr "MDW Streak"
+
+#: widgets/streak/streak.php:28
+msgid "Widget that displays itself on full page width, but only 300px height"
+msgstr "Widget that displays itself on full page width, but only 300px height"
+
+#: widgets/streak/streak.php:29
+msgid "other"
+msgstr "outro"
+
+#: widgets/streak/streak.php:152
+#: widgets/full-width-section/full-width-section.php:163
+#: widgets/intros/video/video.php:158
+#: widgets/intros/minimalist-form/minimalist-form.php:145
+msgid "Image URL or path. "
+msgstr "URL ou Caminho da Imagem."
+
+#. Base ID
+#: widgets/carousel/carousel.php:28
+msgid "MDW Carousel"
+msgstr "MDW Carousel"
+
+#: widgets/carousel/carousel.php:29
+msgid "Beautiful carousel"
+msgstr "Beautiful carousel"
+
+#: widgets/carousel/carousel.php:30 widgets/magazine/magazine.php:30
+msgid "magazine"
+msgstr "magazine"
+
+#: widgets/carousel/carousel.php:228
+msgid "Add image "
+msgstr "Adicionar imagem"
+
+#: widgets/carousel/carousel.php:232
+msgid "Delete image "
+msgstr "Deletar Imagem"
+
+#: widgets/carousel/carousel.php:265
+msgid "Caption heading"
+msgstr "Caption heading"
+
+#: widgets/carousel/carousel.php:276
+msgid "Caption"
+msgstr "Caption"
+
+#: widgets/carousel/carousel.php:291 widgets/magazine/magazine.php:219
+#: widgets/magazine/magazine.php:269 widgets/magazine/magazine.php:344
+#: widgets/magazine/magazine.php:420 widgets/magazine/magazine.php:470
+#: widgets/magazine/magazine.php:520 widgets/magazine/magazine.php:584
+#: widgets/magazine/magazine.php:633 widgets/magazine/magazine.php:682
+#: widgets/ecommerce/ecommerce.php:206 widgets/ecommerce/ecommerce.php:292
+#: widgets/ecommerce/ecommerce.php:378 widgets/ecommerce/ecommerce.php:454
+#: widgets/blogs/blogs.php:229 widgets/blogs/blogs.php:317
+#: widgets/blogs/blogs.php:391 widgets/blogs/blogs.php:441
+#: widgets/blogs/blogs.php:502 widgets/blogs/blogs.php:563
+#: widgets/blogs/blogs.php:623 widgets/blogs/blogs.php:708
+#: widgets/blogs/blogs.php:768 widgets/blogs/blogs.php:842
+#: widgets/blogs/blogs.php:917 widgets/blogs/blogs.php:980
+#: widgets/blogs/blogs.php:1041 widgets/product-listing/product-listing.php:180
+msgid "Posts amount:"
+msgstr "Quantidade de Posts: "
+
+#. Base ID
+#: widgets/full-width-section/full-width-section.php:27
+msgid "MDW Full Width Section"
+msgstr "MDW Full Width Section"
+
+#: widgets/full-width-section/full-width-section.php:28
+msgid "Widget that displays itself on full page width"
+msgstr "Widget that displays itself on full page width"
+
+#. Base ID
+#: widgets/magazine/magazine.php:28
+msgid "MDW Magazine"
+msgstr "MDW Magazine"
+
+#: widgets/magazine/magazine.php:29
+msgid "Magazine listing"
+msgstr "Magazine listing"
+
+#: widgets/magazine/magazine.php:216 widgets/magazine/magazine.php:417
+msgid "Left side"
+msgstr "Lado esquerdo"
+
+#: widgets/magazine/magazine.php:252 widgets/magazine/magazine.php:302
+#: widgets/magazine/magazine.php:377 widgets/magazine/magazine.php:453
+#: widgets/magazine/magazine.php:503 widgets/magazine/magazine.php:553
+#: widgets/ecommerce/ecommerce.php:238 widgets/ecommerce/ecommerce.php:324
+#: widgets/ecommerce/ecommerce.php:410 widgets/ecommerce/ecommerce.php:467
+#: widgets/ecommerce/ecommerce.php:542 widgets/blogs/blogs.php:262
+#: widgets/blogs/blogs.php:350 widgets/blogs/blogs.php:424
+#: widgets/blogs/blogs.php:474 widgets/blogs/blogs.php:535
+#: widgets/blogs/blogs.php:596 widgets/blogs/blogs.php:680
+#: widgets/blogs/blogs.php:740 widgets/blogs/blogs.php:813
+#: widgets/blogs/blogs.php:876 widgets/blogs/blogs.php:950
+#: widgets/blogs/blogs.php:1011 widgets/blogs/blogs.php:1072
+#: widgets/product-listing/product-listing.php:212
+msgid "Words per excerpt:"
+msgstr "Palavras por trecho:"
+
+#: widgets/magazine/magazine.php:266 widgets/magazine/magazine.php:517
+msgid "Right side"
+msgstr "Lado Direito"
+
+#. Base ID
+#: widgets/accordion/accordion.php:28
+msgid "MDW Accordion"
+msgstr "MDW Accordion"
+
+#: widgets/accordion/accordion.php:29
+msgid "MDW Accordion allows you to toggle content on your pages"
+msgstr "MDW Accordion permite a você trocar o conteúdo em suas páginas"
+
+#: widgets/accordion/accordion.php:172
+msgid "Add group "
+msgstr "Adicionar Grupo"
+
+#: widgets/accordion/accordion.php:191
+msgid "Group "
+msgstr "Grupo"
+
+#. Base ID
+#: widgets/contact/contact.php:27
+msgid "MDW Contact"
+msgstr "MDW Contact"
+
+#: widgets/contact/contact.php:28
+msgid "Widget displaying contact section."
+msgstr "Widget mostrando a seção de contato."
+
+#: widgets/contact/contact.php:222
+msgid "Address"
+msgstr "Endereço"
+
+#: widgets/contact/contact.php:234
+msgid "Country"
+msgstr "País"
+
+#: widgets/contact/contact.php:246
+msgid "Phone"
+msgstr "Telefone"
+
+#: widgets/contact/contact.php:259
+msgid "Opening hours"
+msgstr "Horário de Abertura"
+
+#: widgets/contact/contact.php:271
+msgid "Email 1"
+msgstr "Email 1"
+
+#: widgets/contact/contact.php:283
+msgid "Email 2"
+msgstr "Email 2"
+
+#: widgets/contact/contact.php:314
+#: widgets/intros/contact-form/contact-form.php:188
+msgid "Form header"
+msgstr "Cabeçalho do Formulário"
+
+#: widgets/contact/contact.php:326
+msgid "Form description"
+msgstr "Descrição do formulário"
+
+#: widgets/contact/contact.php:357
+msgid ""
+"In order to use this feature, you have to install, activate and configure "
+msgstr ""
+"Para utilizar essa funcionalidade, você precisa instalar, ativar e configurar"
+
+#: widgets/contact/contact.php:357
+msgid " in plugin menu first."
+msgstr "primeiro no menu de plugin"
+
+#: widgets/contact/contact.php:369
+msgid "Map API Key"
+msgstr "Chave API para o Mapa"
+
+#: widgets/contact/contact.php:372
+msgid "How to get an Api Key for my app?"
+msgstr "Como conseguir uma chave de Api para o meu app?"
+
+#: widgets/contact/contact.php:383
+msgid "Latitude"
+msgstr "Latitude"
+
+#: widgets/contact/contact.php:395
+msgid "Longtitude"
+msgstr "Longtitude"
+
+#: widgets/contact/contact.php:403
+msgid "Zoom: "
+msgstr "Zoom: "
+
+#: widgets/contact/contact.php:549
+#: widgets/intros/intro-signup/intro-signup.php:199
+#: widgets/intros/video/video.php:229
+#: widgets/intros/contact-form/contact-form.php:243
+#: widgets/intros/app/app.php:247
+msgid "Empty title"
+msgstr "Titulo Vazio"
+
+#. Base ID
+#: widgets/divider/divider.php:28 widgets/divider/divider.php:29
+msgid "MDW Divider"
+msgstr "MDW Divider"
+
+#. Base ID
+#: widgets/countdown/countdown.php:28
+msgid "MDW Countdown"
+msgstr "MDW Countdown"
+
+#: widgets/countdown/countdown.php:29
+msgid "Countdowns to selected date"
+msgstr "Countdowns to selected date"
+
+#: widgets/countdown/countdown.php:180
+msgid "January"
+msgstr "Janeiro"
+
+#: widgets/countdown/countdown.php:180
+msgid "February"
+msgstr "Fevereiro"
+
+#: widgets/countdown/countdown.php:180
+msgid "March"
+msgstr "Março"
+
+#: widgets/countdown/countdown.php:180
+msgid "April"
+msgstr "Abril"
+
+#: widgets/countdown/countdown.php:180
+msgid "May"
+msgstr "Maio"
+
+#: widgets/countdown/countdown.php:180
+msgid "June"
+msgstr "Junho"
+
+#: widgets/countdown/countdown.php:180
+msgid "July"
+msgstr "Julho"
+
+#: widgets/countdown/countdown.php:180
+msgid "August"
+msgstr "Agosto"
+
+#: widgets/countdown/countdown.php:180
+msgid "September"
+msgstr "Setembro"
+
+#: widgets/countdown/countdown.php:180
+msgid "October"
+msgstr "Outubro"
+
+#: widgets/countdown/countdown.php:180
+msgid "November"
+msgstr "Novembro"
+
+#: widgets/countdown/countdown.php:180
+msgid "December"
+msgstr "Dezembro"
+
+#: widgets/countdown/countdown.php:218
+msgid "Background color:"
+msgstr "Cor do Background:"
+
+#: widgets/countdown/countdown.php:227
+msgid "Font color:"
+msgstr "Cor da Fonte:"
+
+#. Base ID
+#: widgets/testimonials/testimonials.php:28
+msgid "MDW Testimonials"
+msgstr "MDW Testimonials"
+
+#: widgets/testimonials/testimonials.php:29
+msgid "Widget presenting certain features (V1)"
+msgstr "Widget apresentando algumas features(V1)"
+
+#: widgets/testimonials/testimonials.php:238
+#: widgets/testimonials/testimonials.php:307
+#: widgets/testimonials/testimonials.php:411
+msgid "Describe "
+msgstr "Descrever"
+
+#: widgets/testimonials/testimonials.php:314
+#: widgets/testimonials/testimonials.php:419
+#: widgets/testimonials/testimonials.php:515
+msgid "Star rating: "
+msgstr "Avaliação:"
+
+#: widgets/testimonials/testimonials.php:470
+msgid "Add testimonial"
+msgstr "Adicionar testimonial"
+
+#: widgets/testimonials/testimonials.php:474
+msgid "Delete testimonial"
+msgstr "Deletar testimonial"
+
+#: widgets/testimonials/testimonials.php:488
+msgid "Slide "
+msgstr "Slide"
+
+#: widgets/testimonials/testimonials.php:510
+msgid "Quote "
+msgstr "Citar"
+
+#. Base ID
+#: widgets/ecommerce/ecommerce.php:28
+msgid "MDW Ecommerce"
+msgstr "MDW Ecommerce"
+
+#: widgets/ecommerce/ecommerce.php:29
+msgid "Widget listing products."
+msgstr "Widget listando Produtos"
+
+#: widgets/ecommerce/ecommerce.php:169 widgets/ecommerce/ecommerce.php:255
+#: widgets/ecommerce/ecommerce.php:341 widgets/blogs/blogs.php:281
+#: widgets/blogs/blogs.php:490 widgets/blogs/blogs.php:551
+#: widgets/blogs/blogs.php:612 widgets/blogs/blogs.php:697
+#: widgets/blogs/blogs.php:756 widgets/blogs/blogs.php:830
+#: widgets/blogs/blogs.php:968 widgets/blogs/blogs.php:1029
+#: inc/theme-setup/theme-functions.php:70
+msgid "Columns:"
+msgstr "Colunas:"
+
+#: widgets/ecommerce/ecommerce.php:219 widgets/ecommerce/ecommerce.php:305
+#: widgets/ecommerce/ecommerce.php:391 widgets/ecommerce/ecommerce.php:523
+#: widgets/product-listing/product-listing.php:193
+msgid "Product categories:"
+msgstr "Categorias de Produtos"
+
+#. Base ID
+#: widgets/blogs/blogs.php:27
+msgid "MDW Blog"
+msgstr "MDW Blog"
+
+#: widgets/blogs/blogs.php:28
+msgid "Blog listing"
+msgstr "Listagem do Blog"
+
+#: widgets/blogs/blogs.php:29
+msgid "blog"
+msgstr "blog"
+
+#: widgets/blogs/blogs.php:655 widgets/blogs/blogs.php:800
+msgid "Share buttons"
+msgstr "Botões de compartilhamento"
+
+#: widgets/blogs/blogs.php:667
+msgid "Share buttons animation"
+msgstr "Botões de compartilhamento animação"
+
+#: widgets/blogs/blogs.php:1151
+msgid "Display post date"
+msgstr "Mostrar a data do Post"
+
+#: widgets/blogs/blogs.php:1162
+msgid "Display post author"
+msgstr "Mostrar o autor do post"
+
+#. Base ID
+#: widgets/product-listing/product-listing.php:28
+msgid "MDW Product Listing"
+msgstr "MDW Product Listing"
+
+#: widgets/product-listing/product-listing.php:29
+msgid "Widget listing products for e-commerce sidebar."
+msgstr "Widget listando os produtos, para e-comerce sidebar"
+
+#. Base ID
+#: widgets/counter/counter.php:28
+msgid "MDW Counter"
+msgstr "MDW Counter"
+
+#: widgets/counter/counter.php:29
+msgid "MDW Counter kicks off on scrolling to section"
+msgstr "MDW Counter começa a rodar quando chega na seção"
+
+#: widgets/counter/counter.php:211 widgets/counter/counter.php:287
+msgid "Add counter "
+msgstr "Adicionar Contador"
+
+#: widgets/counter/counter.php:215 widgets/counter/counter.php:291
+msgid "Delete counter "
+msgstr "Deletar contador"
+
+#: widgets/counter/counter.php:230 widgets/counter/counter.php:306
+msgid "Counter "
+msgstr "Contador"
+
+#: widgets/counter/counter.php:238 widgets/counter/counter.php:320
+msgid "Number"
+msgstr "Numero"
+
+#: widgets/counter/counter.php:310
+msgid "Size"
+msgstr "Tamanho"
+
+#: templates/blog/template-7.php:102
+msgid "Social shares "
+msgstr "Configurações das Redes Sociais"
+
+#: templates/blog/template-7.php:107
+msgid "Join our community "
+msgstr "Juntar-se à nossa comunidade"
+
+#: templates/blog/template-1.php:65 templates/blog/template-11.php:41
+#: templates/blog/template-2.php:90 templates/blog/template-3.php:64
+#: components/categories/content-cat2.php:28
+#: components/categories/content-cat1.php:43
+#: components/author/content-author-listing.php:66
+msgid "by "
+msgstr "por "
+
+#: templates/blog/template-4.php:24
+msgid " in "
+msgstr "em"
+
+#: components/author/content-author2.php:21
+#: components/author/content-author3.php:13
+msgid "Let's stay in contact"
+msgstr "Vamos ficar em contato"
+
+#: components/author/content-author4.php:27
+msgid "Join on the social media"
+msgstr "Acompanhar nas Redes Sociais"
+
+#: woocommerce/single-product/related.php:52
+msgid "Related Products"
+msgstr "Produtos Relacionados"
+
+#: woocommerce/single-product/up-sells.php:49
+msgid "Up Sells"
+msgstr "Up Sells"
+
+#: mdw-config/before/mdw-config-main-display.php:22
+msgid "General info"
+msgstr "Informações Gerais"
+
+#: mdw-config/before/mdw-config-main-display.php:25
+msgid " Google Analytics integration"
+msgstr "Integração com o Google Analitcs"
+
+#: mdw-config/before/mdw-config-main-display.php:28
+msgid "Category Customization"
+msgstr "Customização de Categoria"
+
+#: mdw-config/before/mdw-config-main-display.php:34
+msgid "Social"
+msgstr "Redes sociais"
+
+#: mdw-config/includes/single-post-settings.php:22
+#: mdw-config/before/includes/mdw-config-category-customizing.php:93
+msgid "Single post page:"
+msgstr "Um post por Página:"
+
+#: mdw-config/includes/single-post-settings.php:31
+#: mdw-config/before/includes/mdw-config-category-customizing.php:100
+msgid "Display author box"
+msgstr "Mostrar a box do autor"
+
+#: mdw-config/includes/single-post-settings.php:39
+#: mdw-config/before/includes/mdw-config-category-customizing.php:108
+msgid "Display tags"
+msgstr "Mostrar tags"
+
+#: mdw-config/includes/single-post-settings.php:42
+#: mdw-config/includes/update.php:53
+#: mdw-config/includes/category-settings.php:103
+#: mdw-config/includes/author-settings.php:114
+#: mdw-config/before/includes/mdw-config-category-customizing.php:159
+#: mdw-config/before/includes/mdw-update-display.php:37
+msgid "Save"
+msgstr "Salvar"
+
+#: mdw-config/includes/single-post-settings.php:55
+#: mdw-config/includes/category-settings.php:121
+#: mdw-config/includes/author-settings.php:131
+#: mdw-config/before/includes/mdw-config-category-customizing.php:180
+msgid "Updating"
+msgstr "Atualizando"
+
+#: mdw-config/includes/update.php:43 mdw-config/includes/update.php:57
+#: mdw-config/before/includes/mdw-update-display.php:27
+#: mdw-config/before/includes/mdw-update-display.php:41
+msgid "Upgrade"
+msgstr "Atualizar"
+
+#: mdw-config/includes/update.php:47
+#: mdw-config/before/includes/mdw-update-display.php:31
+msgid "If you already registered for PRO, enter your license key here:"
+msgstr "Se você já é usuário do MDW PRO, digite a sua chave de licensa aqui:"
+
+#: mdw-config/includes/update.php:69
+#: mdw-config/before/includes/mdw-update-display.php:53
+msgid "Still MDW Free?"
+msgstr "Continua com o MDW Free?"
+
+#: mdw-config/includes/update.php:70
+#: mdw-config/before/includes/mdw-update-display.php:54
+msgid "Go ahead and get MDW PRO now!"
+msgstr "Vá adiante e compre o MDW PRO agora!!"
+
+#: mdw-config/includes/update.php:130 mdw-config/includes/update.php:199
+#: mdw-config/includes/update.php:217 mdw-config/includes/update.php:358
+#: mdw-config/includes/update.php:375 mdw-config/includes/update.php:392
+#: mdw-config/before/includes/mdw-update-display.php:114
+#: mdw-config/before/includes/mdw-update-display.php:183
+#: mdw-config/before/includes/mdw-update-display.php:201
+#: mdw-config/before/includes/mdw-update-display.php:342
+#: mdw-config/before/includes/mdw-update-display.php:359
+#: mdw-config/before/includes/mdw-update-display.php:376
+msgid ""
+"Oops. It looks like our server has some difficulties. We’re working on it, "
+"but so far you can’t download your actualisation."
+msgstr ""
+"Eita. Aparentemente nosso servidor encontrou algumas dificuldades. Nós "
+"estamos trabalhando nisso, mas por enquanto você não poderá baixar a sua "
+"atualização."
+
+#: mdw-config/includes/category-settings.php:25
+msgid "Categories"
+msgstr "Categorias"
+
+#: mdw-config/includes/category-settings.php:30
+msgid " Page"
+msgstr "Página"
+
+#: mdw-config/includes/category-settings.php:50
+msgid "Icon and color"
+msgstr "Ícone e cor"
+
+#: mdw-config/includes/general-info.php:19
+msgid "Properties of your theme"
+msgstr "Propriedades do seu Tema"
+
+#: mdw-config/includes/general-info.php:22
+#: mdw-config/before/includes/mdw-general-display.php:5
+msgid "Name:"
+msgstr "Nome:"
+
+#: mdw-config/includes/general-info.php:26
+#: mdw-config/before/includes/mdw-general-display.php:9
+msgid "Theme URI:"
+msgstr "URI do Tema:"
+
+#: mdw-config/includes/general-info.php:37
+#: mdw-config/before/includes/mdw-general-display.php:20
+msgid "Author:"
+msgstr "Autor:"
+
+#: mdw-config/includes/general-info.php:44
+#: mdw-config/before/includes/mdw-general-display.php:27
+msgid "Author URI:"
+msgstr "Autor URI:"
+
+#: mdw-config/includes/general-info.php:48
+#: mdw-config/before/includes/mdw-general-display.php:31
+msgid "Version:"
+msgstr "Versão:"
+
+#: mdw-config/includes/general-info.php:55
+#: mdw-config/before/includes/mdw-general-display.php:38
+msgid "Template:"
+msgstr "Template:"
+
+#: mdw-config/includes/general-info.php:59
+#: mdw-config/before/includes/mdw-general-display.php:42
+msgid "Status:"
+msgstr "Status:"
+
+#: mdw-config/includes/general-info.php:66
+#: mdw-config/before/includes/mdw-general-display.php:49
+msgid "Tags:"
+msgstr "Tags:"
+
+#: mdw-config/includes/general-info.php:70
+#: mdw-config/before/includes/mdw-general-display.php:53
+msgid "Text Domain:"
+msgstr "Texto do domínio:"
+
+#: mdw-config/includes/general-info.php:77
+#: mdw-config/before/includes/mdw-general-display.php:60
+msgid "Domain Path:"
+msgstr "Domain Path:"
+
+#: mdw-config/includes/author-settings.php:22
+#: mdw-config/before/includes/mdw-config-category-customizing.php:111
+msgid " Author page"
+msgstr "Página do Autor"
+
+#: mdw-config/includes/author-settings.php:72
+msgid "Social Network Links"
+msgstr "Links de Conexão das Redes Sociais"
+
+#: mdw-config/includes/author-settings.php:82
+msgid "Display your email addres in an author box?"
+msgstr "Mostrar seu e-mail na box do autor?"
+
+#: inc/theme-setup/free-theme-functions.php:23
+#: inc/theme-setup/theme-functions.php:60
+msgid "Page heading:"
+msgstr "Cabeçalho da Página:"
+
+#: inc/theme-setup/free-theme-functions.php:27
+msgid "Top content:"
+msgstr "Top content:"
+
+#: inc/theme-setup/free-theme-functions.php:31
+msgid "Bottom content:"
+msgstr "Bottom content:"
+
+#: inc/theme-setup/free-theme-functions.php:35
+msgid "Button name:"
+msgstr "Nome do Botão:"
+
+#: inc/theme-setup/free-theme-functions.php:39
+msgid "Button link:"
+msgstr "Link do Botão:"
+
+#: inc/theme-setup/customizer.php:60
+msgid "Social Options"
+msgstr "Opções das Redes Sociais "
+
+#: inc/theme-setup/customizer.php:260
+msgid "Change your logo"
+msgstr "Trocar sua Logo"
+
+#: inc/theme-setup/customizer.php:269
+msgid "Change your sidenav image"
+msgstr "Trocar a imagem da sidenav"
+
+#: inc/theme-setup/customizer.php:286
+msgid "Layout type"
+msgstr "Tipo de Layout"
+
+#: inc/theme-setup/customizer.php:291
+msgid "Margins with sidebar"
+msgstr "Margens e sidebar"
+
+#: inc/theme-setup/customizer.php:292
+msgid "Full page with sidebar"
+msgstr "Full page with sidebar"
+
+#: inc/theme-setup/customizer.php:293
+msgid "Margins"
+msgstr "Margens"
+
+#: inc/theme-setup/customizer.php:294
+msgid "Full page"
+msgstr "Full page"
+
+#: inc/theme-setup/customizer.php:307
+msgid "Post page"
+msgstr "Página do Post"
+
+#: inc/theme-setup/customizer.php:312
+msgid "Cascading"
+msgstr "Cascading"
+
+#: inc/theme-setup/customizer.php:313
+msgid "Default"
+msgstr "Padrão"
+
+#: inc/theme-setup/customizer.php:314
+msgid "Title up"
+msgstr "Title up"
+
+#: inc/theme-setup/customizer.php:315
+msgid "Cover photo"
+msgstr "Cover photo"
+
+#: inc/theme-setup/customizer.php:328
+msgid "Load more posts on the bottom of the page?"
+msgstr "Carregar mais posts no final da página?"
+
+#: inc/theme-setup/customizer.php:347
+msgid "License key"
+msgstr "License key"
+
+#: inc/theme-setup/customizer.php:592
+msgid "Create Sidebar"
+msgstr "Criar uma Sidebar"
+
+#: inc/theme-setup/customizer.php:601
+msgid "Sidebars management"
+msgstr "Gerenciar Sidebars"
+
+#: inc/theme-setup/customizer.php:602
+msgid "These are your sidebars. Assign some pages to them."
+msgstr "Essas são as suas sidebar. Associe algumas paginas a elas "
+
+#: inc/theme-setup/customizer.php:616
+msgid "Assign some pages to the sidebar"
+msgstr "Atribuir algumas páginas à sidebar"
+
+#: inc/theme-setup/customizer.php:635
+msgid "Add Sidebar"
+msgstr "Adicionar Sidebar"
+
+#: inc/theme-setup/customizer.php:645
+msgid "New sidebar name"
+msgstr "Novo nome para a Sidebar"
+
+#: inc/theme-setup/theme-functions.php:5
+msgid "Navbar Menu"
+msgstr "Navbar Menu"
+
+#: inc/theme-setup/theme-functions.php:14
+msgid "Sidenav Menu"
+msgstr "Sidenav Menu"
+
+#: inc/theme-setup/theme-functions.php:23
+msgid "MDW Footer Menu 1"
+msgstr "MDW Footer Menu 1"
+
+#: inc/theme-setup/theme-functions.php:24
+msgid "MDW Footer Menu 2"
+msgstr "MDW Footer Menu 2"
+
+#: inc/theme-setup/theme-functions.php:25
+msgid "MDW Footer Menu 3"
+msgstr "MDW Footer Menu 3"
+
+#: inc/theme-setup/theme-functions.php:65
+msgid "Posts per page:"
+msgstr "Posts por Página:"
+
+#: inc/theme-setup/theme-functions.php:197
+msgid "Add custom java script code to footer"
+msgstr "Adicionar java-script customizado ao código do footer"
+
+#: inc/ajax/theme-registration.php:31
+msgid "Your license key has been saved. You can upgrade your theme now."
+msgstr "Sua chave de licença foi salva. Agora você pode atualizar o seu tema  "
+
+#: inc/ajax/config-settings-save.php:18 inc/ajax/config-settings-save.php:57
+#: inc/ajax/config-settings-save.php:67 inc/ajax/appearance-settings.php:39
+msgid "Success"
+msgstr "Sucesso"
+
+#: inc/ajax/authorization.php:15
+msgid "Sending user info, please wait..."
+msgstr "Enviando informações do usuário, por favor aguarde"
+
+#: inc/ajax/authorization.php:60
+msgid "This username is already registered."
+msgstr "Esse usuário já está registrado"
+
+#: inc/ajax/authorization.php:62
+msgid "This email address is already registered."
+msgstr "Esse endereço de e-mail ja está registrado"
+
+#: inc/ajax/authorization.php:79
+msgid "Wrong username or password."
+msgstr "Usuário ou senha errados"
+
+#. Base ID
+#: widgets/intros/CTA/cta.php:28
+msgid "MDW Intro CTA Buttons"
+msgstr "MDW Intro CTA Buttons"
+
+#: widgets/intros/CTA/cta.php:29
+msgid "CTA Buttons intro"
+msgstr "CTA Buttons intro"
+
+#: widgets/intros/CTA/cta.php:30
+#: widgets/intros/intro-signup/intro-signup.php:31
+#: widgets/intros/video/video.php:30
+#: widgets/intros/minimalist-form/minimalist-form.php:29
+#: widgets/intros/contact-form/contact-form.php:30
+#: widgets/intros/app/app.php:30
+msgid "intro"
+msgstr "intro"
+
+#. Base ID
+#: widgets/intros/intro-signup/intro-signup.php:29
+msgid "MDW Intro: Signup"
+msgstr "MDW Intro: Signup"
+
+#: widgets/intros/intro-signup/intro-signup.php:30
+msgid "Intro widget containing signup form!"
+msgstr "Intro widget containing signup form!"
+
+#: widgets/intros/intro-signup/intro-signup.php:147
+msgid "Image URL or path"
+msgstr "URL ou Caminho da Imagem"
+
+#: widgets/intros/intro-signup/intro-signup.php:160
+msgid "Button text :"
+msgstr "Texto do Botão:"
+
+#: widgets/intros/intro-signup/intro-signup.php:170
+msgid "Button URL:"
+msgstr "URL do Botão:"
+
+#. Base ID
+#: widgets/intros/video/video.php:28
+msgid "MDW Intro: Video"
+msgstr "MDW Intro: Video"
+
+#: widgets/intros/video/video.php:29
+msgid "Widget presenting certain features"
+msgstr "Widget apresentando algumas features"
+
+#: widgets/intros/video/video.php:187
+#: widgets/intros/contact-form/contact-form.php:176
+msgid "Button href"
+msgstr "Botão href"
+
+#: widgets/intros/video/video.php:199
+msgid "Video link"
+msgstr "Link do Vídeo"
+
+#. Base ID
+#: widgets/intros/minimalist-form/minimalist-form.php:27
+msgid "MDW Intro: Minimalist"
+msgstr "MDW Intro: Minimalist"
+
+#: widgets/intros/minimalist-form/minimalist-form.php:28
+msgid "Intro widget containing minimalist form!"
+msgstr "Intro widget containing minimalist form!"
+
+#: widgets/intros/minimalist-form/minimalist-form.php:233
+msgid ""
+"You have no any contact form plugin. Install or activate required plugins!"
+msgstr ""
+"Você não tem nenhum plugin de formulário de contato. Instale ou ative os "
+"Plugins requisitados!"
+
+#. Base ID
+#: widgets/intros/contact-form/contact-form.php:28
+msgid "MDW Intro: Contact Form"
+msgstr "MDW Intro: Contact Form"
+
+#: widgets/intros/contact-form/contact-form.php:29
+msgid "Contact form intro"
+msgstr "Contact form intro"
+
+#. Base ID
+#: widgets/intros/app/app.php:28
+msgid "MDW Intro: APP"
+msgstr "MDW Intro: APP"
+
+#: widgets/intros/app/app.php:29
+msgid "Application Intro"
+msgstr "Aplicação Intro"
+
+#: widgets/intros/app/app.php:146
+msgid "Select background image"
+msgstr "Selecionar Imagem de Background"
+
+#: widgets/intros/app/app.php:164
+msgid "Select image on top"
+msgstr "Selecionar imagem do Topo"
+
+#: widgets/contact/templates/contact-template-2.php:66
+msgid ""
+"In order to use this feature, you have to install, activate and configure "
+"ContactForm7 in plugin menu first."
+msgstr ""
+"Para utilizar essa funcionalidade, você precisa instalar, ativar e "
+"configurar o ContactForm7 no menu de plugin."
+
+#: widgets/countdown/templates/countdown-template-1.php:26
+msgid "Days"
+msgstr "Dias"
+
+#: widgets/countdown/templates/countdown-template-1.php:31
+msgid "Hours"
+msgstr "horas"
+
+#: widgets/countdown/templates/countdown-template-1.php:36
+msgid "Minutes"
+msgstr "Minutos"
+
+#: widgets/countdown/templates/countdown-template-1.php:41
+msgid "Seconds"
+msgstr "Segundos"
+
+#: widgets/ecommerce/templates/ecommerce-template-1.php:150
+#: widgets/ecommerce/templates/ecommerce-template-2.php:153
+msgid "No ratings"
+msgstr "Sem avaliações"
+
+#: widgets/ecommerce/templates/ecommerce-template-1.php:173
+msgid "Add to Cart"
+msgstr "Adicionar ao Carrinho de Compras"
+
+#: widgets/ecommerce/templates/ecommerce-template-2.php:178
+msgid "Quick Look"
+msgstr "Visão Rápida"
+
+#: woocommerce/single-product/tabs/tabs.php:37
+msgid "About this product"
+msgstr "Sobre esse Produto"
+
+#: woocommerce/single-product/tabs/tabs.php:46
+msgid "Product Reviews"
+msgstr "Reviews do Produto"
+
+#: mdw-config/before/includes/mdw-config-category-customizing.php:17
+msgid " Category page"
+msgstr "Categorias"
+
+#: mdw-config/before/includes/mdw-config-category-customizing.php:37
+msgid "Category icon and color"
+msgstr "Ícone e Cor da Categoria"
+
+#: mdw-config/before/includes/mdw-config-category-customizing.php:165
+msgid "Please assign some categories in yout Posts/Categories panel."
+msgstr "Por favor adicione alguma categoria no seu painel de Posts/Categorias"
+
+#: mdw-config/before/includes/mdw-social-display.php:3
+msgid "Social configuration"
+msgstr "Configurações de Redes Sociais"
+
+#. Name of the theme
+msgid "MDW"
+msgstr "MDW"
+
+#. Description of the theme
+msgid ""
+"This is outstanding WP Blog theme developed on Material Design for Bootstrap "
+"4"
+msgstr "Este é o tema WP Blog desenvolvido em Material Design for Bootstrap 4"
+
+#. URI of the theme
+msgid "http://mdwp.io/material-design-for-wordpress/"
+msgstr "http://mdwp.io/material-design-for-wordpress/"
+
+#. Author of the theme
+msgid "MDWP.io"
+msgstr "MDWP.io"
+
+#. Author URI of the theme
+msgid "http://mdwp.io"
+msgstr "http://mdwp.io"

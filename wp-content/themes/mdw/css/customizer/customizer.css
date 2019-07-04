@@ -1,0 +1,125 @@
+div.widget-list.disabled * {
+    cursor: not-allowed!important;
+    background: rgb(219, 219, 219)!important;
+}
+
+li#accordion-section-page_builder h3 {
+    pointer-events: none;
+    cursor: not-allowed;
+    background: rgb(219, 219, 219) !important;
+    opacity: .5;
+}
+li#accordion-section-page_builder:hover h3::after {
+    content: 'Disabled due to WordPress API change';
+    font-size: 0.7rem;
+    color: red!important;
+}
+
+#customize-control-color_scheme label{
+    display: inline-block;
+    line-height: 20px;
+    margin-left: 0;
+    padding: 6px;
+    width: 32%;
+    height: 55px;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+}
+#customize-control-color_scheme#customize-control-color_scheme#customize-control-color_scheme#customize-control-color_scheme label::after {
+    display: none!important;
+}
+
+#customize-control-color_scheme label input{
+    position: absolute;
+    left: -9999px;
+}
+label[data-color='blue-skin']{
+    background-color: #072e6e;
+}
+label[data-color='red-skin']{
+    background-color: #990000;
+}
+label[data-color='green-skin']{
+    background-color: #003830;
+}
+label[data-color='purple-skin']{
+    background-color: #54057d;
+}
+label[data-color='dark-skin']{
+    background-color: #3b3b3b;
+}
+label[data-color='grey-skin']{
+    background-color: #565d6b;
+}
+label[data-color='mdb-skin']{
+    background-color: #3f729b;
+}
+label[data-color='deep-orange-skin']{
+    background-color: #8a1a00;
+}
+label[data-color='graphite-skin']{
+    background-color: #37474f;
+}
+label[data-color='pink-skin']{
+    background-color: #ab1550; /* #c2185b */
+}
+label[data-color='light-grey-skin']{
+    background-color: #686868; /* #424242 */
+}
+#customize-control-package {
+    display:none;
+    margin-left: -99999px;
+}
+
+ul[class*='new-sidebar']{
+    display: none;
+}
+li[id*='section-new_sidebar']{
+    margin-top: 20px;
+    padding: 10px;
+}
+li[id*='new_sidebar'] button{
+    float: right;
+}
+li[id*='new_sidebar'] button i{
+    -webkit-transition: -webkit-transform 0.3s cubic-bezier(0.88, -0.79, 1, 1);
+    transition: -webkit-transform 0.3s cubic-bezier(0.88, -0.79, 1, 1);
+    transition: transform 0.3s cubic-bezier(0.88, -0.79, 1, 1);
+    transition: transform 0.3s cubic-bezier(0.88, -0.79, 1, 1), -webkit-transform 0.3s cubic-bezier(0.88, -0.79, 1, 1);
+    margin-top: 5px;
+    font-size: 1rem;
+}
+li[id*='new_sidebar'] button i.fa.fa-plus.rotate{
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+ul[class*='new-sidebar']{
+    display: none;
+}
+
+ul[class*='new-sidebar'] li[id*='create_new_sidebar'] button{
+    float: right;
+}
+ul[class*='new-sidebar'] li[id*='create_new_sidebar'] i.fa.fa-spinner{
+    display: none;
+    float: right;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.new_sidebar_response{
+    float: left;
+    margin-top: 20px;
+}
+
+#customize-control-facebook_url .customize-control-title, #customize-control-twitter_url .customize-control-title, #customize-control-googleplus_url .customize-control-title, #customize-control-linkedin_url .customize-control-title, #customize-control-instagram_url .customize-control-title, #customize-control-pinterest_url .customize-control-title, #customize-control-vkontakte_url .customize-control-title, #customize-control-youtube_url .customize-control-title, #customize-control-dribble_url .customize-control-title, #customize-control-github_url .customize-control-title{
+    line-height: 2px;
+}
+
+#customize-control-facebook_share, #customize-control-twitter_share, #customize-control-google_share{
+    margin-bottom: 0;
+}
+
+#customize-control-comments_button{
+    margin-bottom: 30px;
+}

@@ -1,0 +1,276 @@
+/*
+    Theme Name:   MDW Child
+    Theme URI:    http://blog.mcfr.com.br/mdw-child/
+    Description:  This is my child theme for MDW
+    Author:       Gustavo Almeida
+    Author URI:   http://blog.mcfr.com.br
+    Template:     mdw
+    Version:      1.0
+    Tags:         do, not, have, tags
+    Text Domain:  mdw-child
+*/
+
+/*Personalização Banner*/
+.streak.streak-lg {
+  height: 70vh;
+}
+.intro .intro-heading {
+  font-size: 2.25rem !important;
+}
+@media (min-width: 1024px) {
+  .intro .intro-heading {
+    font-size: 4.25rem !important;
+  }
+}
+.intro .btn{
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.intro .btn-outline-white{
+  background-color: #00000085;
+}
+#mdw_divider-2 .divider-new{
+  margin-top: -30px !important;
+}
+
+/*Correção bog do ponto de toggle da navbar*/
+.navbar-toggleable-sm ul li {
+    float: left !important;
+}
+
+/*Personalização Menu*/
+nav{
+  line-height: 2.5;
+}
+.navbar-toggler {
+  margin-top: 10px;
+}
+#menu-navbar-feia > li:last-child
+{
+  float:right !important;
+}
+.navbar form{
+  margin-top: 10px;
+  color: #fff;
+}
+.search-field{
+  margin-top: 10px;
+  color: #fff;
+}
+.navbar .navbar-nav .nav-item a {
+  font-weight: 400;
+}
+#menu-item-720 a{
+  border-radius: 2px;
+  border: 2px solid #fff;
+  color: #fff!important;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 6px;
+  white-space: normal!important;
+  word-wrap: break-word;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  line-height: 1.25;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+/*Personalização Filtro*/
+.pgafu-filter li{
+  font-weight: 300;
+  border: 2px solid #000;
+  color: #000!important;
+  border-radius: 2px;
+  margin: 6px;
+  white-space: normal!important;
+  word-wrap: break-word;
+  background-color: transparent;
+  text-transform: uppercase;
+  transition: .2s ease-out;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  -webkit-tap-highlight-color: transparent;
+}
+.pgafu-filter a{
+  background-color: transparent !important;
+}
+.pgafu-filter li.pgafu-active-filtr a {
+  background-color: #b9b4b4 !important;
+  color: #000;
+  font-weight: 400;
+}
+
+/*Personalização Cards*/
+.pgafu-post-grid-main {
+  margin: 0px;
+}
+.pgafu-post-grid .pgafu-post-grid-content{
+  width: 100%;
+  border: 0;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  position: relative;
+  display: block;
+  margin-bottom: 0.75rem;
+}
+.pgafu-post-grid .pgafu-post-grid-content .pgafu-post-image-bg{
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: 1;
+  -webkit-tap-highlight-color: transparent;
+}
+.pgafu-post-grid-main.pgafu-design-1 .pgafu-post-grid-content .pgafu-post-title{
+  margin-bottom: 0.75rem !important;
+  word-wrap: break-word;
+  font-weight: 300;
+  font-size: 1.5rem !important;
+  line-height: 1.1 !important;
+  background-color: transparent !important;
+}
+h2 .pgafu-post-title a {
+  color: #0275d8;
+  transition: .4s;
+  background-color: transparent !important;
+}
+.pgafu-post-content .pgafu-post-short-content{
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.pgafu-post-content a{
+  border-color: #0a0732 !important;
+  color: #0a0732!important;
+  padding: .85rem 2.13rem;
+  font-weight: 300;
+  border: 3px solid !important;
+  background-color: transparent;
+  font-size: .8rem;
+  border-radius: 2px;
+  margin: 10px 6px 20px 6px;
+  white-space: normal!important;
+  word-wrap: break-word;
+  text-transform: uppercase;
+  transition: .2s ease-out;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  background-image: none;
+  display: inline-block;
+  line-height: 1.25 !important;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/*Post Page*/
+.author-box{
+  margin-bottom: 30px;
+}
+
+/*Footer*/
+.page-footer .divider-new{
+  margin: 20px 20px 20px 20px;
+}
+#mailpoet_form-2{
+  background-color: #fff;
+  border: 0;
+  width: 100%;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  padding: 1.25rem;
+  position: relative;
+  display: block;
+  margin-bottom: .75rem;
+  text-align: center;
+}
+#mailpoet_form-2 .title {
+  background-color: #3f729b!important;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  border: 2px;
+  border-radius: 10px;
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+}
+#mailpoet_form-2 p{
+  padding-top: 25px;
+  color: #000;
+}
+.page-footer .mailpoet_submit{
+  border-color: #605400 !important;
+  color: #0a0732!important;
+  padding: .85rem 2.13rem;
+  font-weight: 800;
+  border: 3px solid !important;
+  background-color: transparent;
+  font-size: 1rem;
+  border-radius: 2px;
+  margin: 10px 6px 20px 6px;
+  white-space: normal!important;
+  word-wrap: break-word;
+  text-transform: uppercase;
+  transition: .2s ease-out;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  background-image: none;
+  display: inline-block;
+  line-height: 1.25 !important;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+}
+.page-footer .mailpoet_submit:hover{
+  background-color: #888!important;
+}
+
+/*Modal - Contato - Footer*/
+#custom_html-2{
+  color:#000;
+}
+#myModalLabel{
+  font-weight: 600;
+}
+#custom_html-2 .form-header{
+  background-color: #0E0060;
+}
+#custom_html-2 button {
+  font-weight: 600;
+  font-size: 1rem;
+}
+#custom_html-2 .modal-footer button{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*FixedBTN*/
+#top-section .fixed-action-btn a{
+  background-color: #7e6b00!important;
+}
+
+/*Cores*/
+.mdb-skin .navbar {
+  background-color: #030023;
+}
+.mdb-skin .page-footer{
+  background-color: #0a0732;
+}
+.mdb-skin .btn-primary {
+  background-color: #0E0060!important;
+}
+.mdb-skin .btn-primary:hover {
+  background-color: #030014!important;
+}

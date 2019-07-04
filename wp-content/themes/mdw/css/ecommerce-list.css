@@ -1,0 +1,11 @@
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+    width: 90%;
+}
+.woocommerce ul.products li.product{
+    box-shadow: none;
+    text-align: left;
+}
+.woocommerce ul.products li.product .price{
+    justify-content: flex-end;
+    /* End because of row-reverse property */
+}

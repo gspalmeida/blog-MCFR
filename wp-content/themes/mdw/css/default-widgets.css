@@ -1,0 +1,648 @@
+/*
+  default wordpress widgets styles
+*/
+li.widget {
+    list-style-type: none;
+}
+
+/*
+  widget title
+*/
+[data-sidebar-type] :not([id*="wysija"]):not([id*="gform"]) .widgettitle {
+    text-align: center;
+    margin: 1rem auto;
+    margin-top: 0.8rem;
+    margin-bottom: 2.8rem;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    max-width: 100%;
+    padding: 0;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-radius: 0.2rem;
+    z-index: 3;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+[id*='text'].widget-item > h4{
+    padding-bottom: 1rem;
+}
+/*
+  MDB styles for Wordpress 'Pages' widget
+  http://mdbootstrap.com/components/list-group/
+*/
+
+#recentcomments,
+.widget_pages ul,
+.widget_meta ul,
+[id*='categories-'] ul,
+.widget_archive ul,
+.widget_rss ul,
+.widget_recent_entries ul,
+[id^='recent-posts'] ul,
+[id^='meta'] ul,
+[id^='archives'] ul,
+[id^='pages'] ul,
+[class^='tag_cloud'] ul {
+    box-shadow: rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    font-family: Roboto,sans-serif;
+
+}
+
+
+
+.widget_pages ul .page_item, [id^='pages'] ul .page_item {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1.25px;
+    background-color: #fff;
+    border-bottom: : 1px solid #ddd;
+}
+.widget_pages ul .page_item.current_page_item>a, body.blue-skin [id^='pages'] ul .page_item.current_page_item>a {
+    z-index: 2;
+    background-color: #0275d8;
+    border-color: #0275d8;
+}
+.widget_pages ul .page_item.current_page_item>a a, body.blue-skin [id^='pages'] ul .page_item.current_page_item>a a {
+    color: #fff;
+    text-decoration: none;
+}
+/*
+  MDB styles for Wordpress 'Tags' widget
+  http://mdbootstrap.com/components/tags/
+*/
+.tagcloud a {
+    display: inline-block;
+    font-size: 13px;
+    color: rgba(0,0,0,.6);
+    padding: 0 12px;
+    border-radius: 16px;
+    background-color: #eceff1;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    font-weight: 500;
+    height: 32px;
+    line-height: 32px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+}
+/*
+  MDB styles for Wordpress 'Recent comments' and 'Meta' widgets
+  http://mdbootstrap.com/components/list-group/
+*/
+
+li.widget > ul,
+li.widget > .textwidget,
+div.widget > .calendar_wrap,
+li.widget_calendar > .calendar_wrap,
+div.widget-item > ul,
+div.widget-item > .calendar_wrap {
+    position: relative;
+    top: -2rem;
+    z-index: 4;
+    background-color: #fff;
+
+}
+
+div.widget-item > ul > li > a{
+    font-weight: 400;
+}
+#wp-calendar > tbody > tr > td > a{
+    font-weight: 400;
+}
+.widget_calendar{
+    margin-top: 60px;
+}
+.widget_recent_entries ul li span.post-date {
+    float: right;
+}
+.widget_recent_entries ul li {
+    padding: 1rem 0;
+}
+[id^='recentcomments'] li.recentcomments, [id^='rss'] ul li, .widget_meta ul li, .row .col-md-4 .widget-item .cat-item, .widget_archive ul li, .widget_rss ul li, [id^='recent-posts'] ul li, [id^='meta'] ul li, [id^='archives'] ul li, [class^='tag_cloud'] ul li, [id^='pages'] ul li {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    /*border-radius: 2px;*/
+    position: relative;
+    display: block;;
+    margin-bottom: 1.25px;
+    padding: .75rem 1.25rem;
+    border-bottom: 1px solid #ddd;
+    /*border: 1px solid #ddd;*/
+    background-color: #fff;
+
+}
+/*
+[id^='recentcomments'] li.recentcomments, [id^='rss'] ul li a, .widget_meta ul li a, .cat-item, .widget_archive ul li a, .widget_rss ul li a, [id^='recent-posts'] ul li a, [id^='meta'] ul li a, [id^='archives'] ul li a, [class^='tag_cloud'] ul li a, [id^='pages'] ul li a {
+  display: block;
+  padding: .75rem 1.25rem;
+}
+*/
+
+.widget_rss ul .rssSummary, [id^='rss'] ul .rssSummary {
+    /*border: 1px solid #ddd;*/
+    /*box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);*/
+    padding: 1rem 0.5rem;
+    margin: 1rem 0;
+}
+.widget_rss ul li a, [id^='rss'] ul li a {
+    display: block;
+    text-align: justify;
+}
+.widget_archive ul li span, .widget_categories ul li span, [id^='categories'] ul li span, [id^='archives'] ul li span {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+    white-space: nowrap;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+    float: right!important;
+    background-color: #0275d8!important;
+    color: #fff!important;
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    vertical-align: baseline;
+    font-weight: 700;
+}
+
+.widget_archive ul {
+    padding: 0;
+}
+/*
+  MDB styles for Wordpress 'Calendar' widget
+  http://mdbootstrap.com/components/tags/
+*/
+#calendar_wrap {
+    border-radius: 2px;
+    overflow: hidden;
+    display: block;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+
+    background: #fff;
+    display: table-cell;
+    padding: 0;
+    vertical-align: middle;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.2;
+    color: #000;
+    -webkit-user-select: none;
+}
+#wp-calendar {
+    font-family: Roboto,sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+#wp-calendar caption {
+    text-align: center;
+}
+
+#wp-calendar thead tr th {
+
+    padding: 1rem 0;
+    background-color: #4285F4;
+    color: #fff;
+    text-align: center;
+    margin: -1px;
+    font-weight: 300;
+}
+#wp-calendar tbody tr td {
+    text-align: center;
+    color: #999;
+    font-weight: 300;
+    padding: 0.5rem;
+}
+#wp-calendar tbody tr:first-child td {
+    padding-top: 1.5rem;
+}
+#wp-calendar tbody tr td a {
+    /*border-radius: 50%;*/
+    /*border: 2px solid #4285F4;*/
+    /*padding: 0.5rem 0.8rem;*/
+
+    /*box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);*/
+
+    transition: all .3s;
+}
+
+#wp-calendar tbody tr td a:hover{
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: #4285F4;
+    font-weight: 500;
+    padding: 0.5rem 0.8rem;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+}
+#wp-calendar tfoot {
+    border-top: 1px solid rgba(0,0,0,.12);
+}
+#wp-calendar tfoot tr td a {
+    color: #999;
+    transition: all .3s;
+}
+#wp-calendar tfoot tr td a:hover {
+    color:#0089ec;
+}
+
+
+[data-sidebar-type] [id*="wysija"] .widgettitle,
+[data-sidebar-type] [id*="gform"] .widgettitle{
+    font-size: 1.75rem;
+    font-weight: 400;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+[data-sidebar-type] input[class*="wysija"],
+[data-sidebar-type] [class*="gform"] input]{
+    margin: 0 auto;
+}
+
+[data-sidebar-type] [id*="wysija"].widget-item input[type="submit"]{
+    margin: 7px auto!important;
+}
+
+[id*="gform"] .gform_footer{
+    text-align: center;
+}
+
+.validation_message{
+    color: red;
+}
+
+/*
+  COLORS
+
+*/
+
+/* blue skin */
+.blue-skin [id^='calendar'] h4,
+.blue-skin [id^='calendar'] h2,
+.blue-skin [id^='pages'] h4,
+.blue-skin [id^='pages'] h2,
+.blue-skin [id^='categories'] h4,
+.blue-skin [id^='categories'] h2,
+.blue-skin [id^='recent-posts'] h4,
+.blue-skin [id^='recent-posts'] h2,
+.blue-skin [id^='recent-comments'] h4,
+.blue-skin [id^='recent-comments'] h2,
+.blue-skin [id^='rss'] h4,
+.blue-skin [id^='rss'] h2,
+.blue-skin [id^='tag_cloud'] h4,
+.blue-skin [id^='tag_cloud'] h2,
+.blue-skin [id^='text'] h4,
+.blue-skin [id^='text'] h2,
+.blue-skin [id^='meta'] h4,
+.blue-skin [id^='meta'] h2,
+.blue-skin [id^='archives'] h4,
+.blue-skin [id^='archives'] h2 {
+    background-color: #072e6e!important;
+    color: #fff!important;
+}
+.blue-skin [id^='calendar'] thead tr th,
+.blue-skin [id^='categories'] ul li span,
+.blue-skin [id^='archives'] ul li span,
+.blue-skin [id^='calendar'] tbody tr td a:hover{
+    background-color: #0d47a1!important; /*#4285F4;  pagination color*/
+    color: #fff!important;
+}
+/* red skin */
+.red-skin [id^='calendar'] h4,
+.red-skin [id^='calendar'] h2,
+.red-skin [id^='pages'] h4,
+.red-skin [id^='pages'] h2,
+.red-skin [id^='categories'] h4,
+.red-skin [id^='categories'] h2,
+.red-skin [id^='recent-posts'] h4,
+.red-skin [id^='recent-posts'] h2,
+.red-skin [id^='recent-comments'] h4,
+.red-skin [id^='recent-comments'] h2,
+.red-skin [id^='rss'] h4,
+.red-skin [id^='rss'] h2,
+.red-skin [id^='tag_cloud'] h4,
+.red-skin [id^='tag_cloud'] h2,
+.red-skin [id^='text'] h4,
+.red-skin [id^='text'] h2,
+.red-skin [id^='meta'] h4,
+.red-skin [id^='meta'] h2,
+.red-skin [id^='archives'] h4,
+.red-skin [id^='archives'] h2 {
+    background-color: #990000!important;
+    color: #fff!important;
+}
+.red-skin [id^='calendar'] thead tr th,
+.red-skin [id^='categories'] ul li span,
+.red-skin [id^='archives'] ul li span,
+.red-skin [id^='calendar'] tbody tr td a:hover{
+    background-color: #B81414!important; /*#4285F4;  pagination color*/
+    color: #fff!important;
+}
+/* green skin */
+.green-skin [id^='calendar'] h4,
+.green-skin [id^='calendar'] h2,
+.green-skin [id^='pages'] h4,
+.green-skin [id^='pages'] h2,
+.green-skin [id^='categories'] h4,
+.green-skin [id^='categories'] h2,
+.green-skin [id^='recent-posts'] h4,
+.green-skin [id^='recent-posts'] h2,
+.green-skin [id^='recent-comments'] h4,
+.green-skin [id^='recent-comments'] h2,
+.green-skin [id^='rss'] h4,
+.green-skin [id^='rss'] h2,
+.green-skin [id^='tag_cloud'] h4,
+.green-skin [id^='tag_cloud'] h2,
+.green-skin [id^='text'] h4,
+.green-skin [id^='text'] h2,
+.green-skin [id^='meta'] h4,
+.green-skin [id^='meta'] h2,
+.green-skin [id^='archives'] h4,
+.green-skin [id^='archives'] h2 {
+    background-color: #003830!important;
+    color: #fff!important;
+}
+.green-skin [id^='calendar'] thead tr th,
+.green-skin [id^='categories'] ul li span,
+.green-skin [id^='archives'] ul li span,
+.green-skin [id^='calendar'] tbody tr td a:hover{
+    background-color: #0D5148!important; /*#4285F4;  pagination color*/
+    color: #fff!important;
+}
+/* purple skin */
+.purple-skin [id^='calendar'] h4,
+.purple-skin [id^='calendar'] h2,
+.purple-skin [id^='pages'] h4,
+.purple-skin [id^='pages'] h2,
+.purple-skin [id^='categories'] h4,
+.purple-skin [id^='categories'] h2,
+.purple-skin [id^='recent-posts'] h4,
+.purple-skin [id^='recent-posts'] h2,
+.purple-skin [id^='recent-comments'] h4,
+.purple-skin [id^='recent-comments'] h2,
+.purple-skin [id^='rss'] h4,
+.purple-skin [id^='rss'] h2,
+.purple-skin [id^='tag_cloud'] h4,
+.purple-skin [id^='tag_cloud'] h2,
+.purple-skin [id^='text'] h4,
+.purple-skin [id^='text'] h2,
+.purple-skin [id^='meta'] h4,
+.purple-skin [id^='meta'] h2,
+.purple-skin [id^='archives'] h4,
+.purple-skin [id^='archives'] h2 {
+    background-color: #54057d!important;
+    color: #fff!important;
+}
+.purple-skin [id^='calendar'] thead tr th,
+.purple-skin [id^='categories'] ul li span,
+.purple-skin [id^='archives'] ul li span,
+.purple-skin [id^='calendar'] tbody tr td a:hover{
+    background-color: #5e35b1!important; /*#4285F4;  pagination color*/
+    color: #fff!important;
+}
+/* dark skin */
+.dark-skin [id^='calendar'] h4,
+.dark-skin [id^='calendar'] h2,
+.dark-skin [id^='pages'] h4,
+.dark-skin [id^='pages'] h2,
+.dark-skin [id^='categories'] h4,
+.dark-skin [id^='categories'] h2,
+.dark-skin [id^='recent-posts'] h4,
+.dark-skin [id^='recent-posts'] h2,
+.dark-skin [id^='recent-comments'] h4,
+.dark-skin [id^='recent-comments'] h2,
+.dark-skin [id^='rss'] h4,
+.dark-skin [id^='rss'] h2,
+.dark-skin [id^='tag_cloud'] h4,
+.dark-skin [id^='tag_cloud'] h2,
+.dark-skin [id^='text'] h4,
+.dark-skin [id^='text'] h2,
+.dark-skin [id^='meta'] h4,
+.dark-skin [id^='meta'] h2,
+.dark-skin [id^='archives'] h4,
+.dark-skin [id^='archives'] h2 {
+    background-color: #3b3b3b!important;
+    color: #fff!important;
+}
+.dark-skin [id^='calendar'] thead tr th,
+.dark-skin [id^='categories'] ul li span,
+.dark-skin [id^='archives'] ul li span,
+.dark-skin [id^='calendar'] tbody tr td a:hover{
+    background-color: #717171!important; /*#4285F4;  pagination color*/
+    color: #fff!important;
+}
+/* grey skin */
+.grey-skin [id^='calendar'] h4,
+.grey-skin [id^='calendar'] h2,
+.grey-skin [id^='pages'] h4,
+.grey-skin [id^='pages'] h2,
+.grey-skin [id^='categories'] h4,
+.grey-skin [id^='categories'] h2,
+.grey-skin [id^='recent-posts'] h4,
+.grey-skin [id^='recent-posts'] h2,
+.grey-skin [id^='recent-comments'] h4,
+.grey-skin [id^='recent-comments'] h2,
+.grey-skin [id^='rss'] h4,
+.grey-skin [id^='rss'] h2,
+.grey-skin [id^='tag_cloud'] h4,
+.grey-skin [id^='tag_cloud'] h2,
+.grey-skin [id^='text'] h4,
+.grey-skin [id^='text'] h2,
+.grey-skin [id^='meta'] h4,
+.grey-skin [id^='meta'] h2,
+.grey-skin [id^='archives'] h4,
+.grey-skin [id^='archives'] h2 {
+    background-color: #565d6b!important;
+    color: #fff!important;
+}
+.grey-skin [id^='calendar'] thead tr th,
+.grey-skin [id^='categories'] ul li span,
+.grey-skin [id^='archives'] ul li span,
+.grey-skin [id^='calendar'] tbody tr td a:hover{
+    background-color: #727884!important; /*#4285F4;  pagination color*/
+    color: #fff!important;
+}
+/* mdb skin */
+.mdb-skin [id^='calendar'] h4,
+.mdb-skin [id^='calendar'] h2,
+.mdb-skin [id^='pages'] h4,
+.mdb-skin [id^='pages'] h2,
+.mdb-skin [id^='categories'] h4,
+.mdb-skin [id^='categories'] h2,
+.mdb-skin [id^='recent-posts'] h4,
+.mdb-skin [id^='recent-posts'] h2,
+.mdb-skin [id^='recent-comments'] h4,
+.mdb-skin [id^='recent-comments'] h2,
+.mdb-skin [id^='rss'] h4,
+.mdb-skin [id^='rss'] h2,
+.mdb-skin [id^='tag_cloud'] h4,
+.mdb-skin [id^='tag_cloud'] h2,
+.mdb-skin [id^='text'] h4,
+.mdb-skin [id^='text'] h2,
+.mdb-skin [id^='meta'] h4,
+.mdb-skin [id^='meta'] h2,
+.mdb-skin [id^='archives'] h4,
+.mdb-skin [id^='archives'] h2 {
+    background-color: #3f729b!important;
+    color: #fff!important;
+}
+.mdb-skin [id^='calendar'] thead tr th,
+.mdb-skin [id^='categories'] ul li span,
+.mdb-skin [id^='archives'] ul li span,
+.mdb-skin [id^='calendar'] tbody tr td a:hover{
+    background-color: #618FB5!important; /*#4285F4;  pagination color*/
+    color: #fff!important;
+}
+/* deep-orange skin */
+.deep-orange-skin [id^='calendar'] h4,
+.deep-orange-skin [id^='calendar'] h2,
+.deep-orange-skin [id^='pages'] h4,
+.deep-orange-skin [id^='pages'] h2,
+.deep-orange-skin [id^='categories'] h4,
+.deep-orange-skin [id^='categories'] h2,
+.deep-orange-skin [id^='recent-posts'] h4,
+.deep-orange-skin [id^='recent-posts'] h2,
+.deep-orange-skin [id^='recent-comments'] h4,
+.deep-orange-skin [id^='recent-comments'] h2,
+.deep-orange-skin [id^='rss'] h4,
+.deep-orange-skin [id^='rss'] h2,
+.deep-orange-skin [id^='tag_cloud'] h4,
+.deep-orange-skin [id^='tag_cloud'] h2,
+.deep-orange-skin [id^='text'] h4,
+.deep-orange-skin [id^='text'] h2,
+.deep-orange-skin [id^='meta'] h4,
+.deep-orange-skin [id^='meta'] h2,
+.deep-orange-skin [id^='archives'] h4,
+.deep-orange-skin [id^='archives'] h2 {
+    background-color: #8a1a00!important;
+    color: #fff!important;
+}
+.deep-orange-skin [id^='calendar'] thead tr th,
+.deep-orange-skin [id^='categories'] ul li span,
+.deep-orange-skin [id^='archives'] ul li span,
+.deep-orange-skin [id^='calendar'] tbody tr td a:hover{
+    background-color: #AA3216!important; /*#4285F4;  pagination color*/
+    color: #fff!important;
+}
+/* graphite skin */
+.graphite-skin [id^='calendar'] h4,
+.graphite-skin [id^='calendar'] h2,
+.graphite-skin [id^='pages'] h4,
+.graphite-skin [id^='pages'] h2,
+.graphite-skin [id^='categories'] h4,
+.graphite-skin [id^='categories'] h2,
+.graphite-skin [id^='recent-posts'] h4,
+.graphite-skin [id^='recent-posts'] h2,
+.graphite-skin [id^='recent-comments'] h4,
+.graphite-skin [id^='recent-comments'] h2,
+.graphite-skin [id^='rss'] h4,
+.graphite-skin [id^='rss'] h2,
+.graphite-skin [id^='tag_cloud'] h4,
+.graphite-skin [id^='tag_cloud'] h2,
+.graphite-skin [id^='text'] h4,
+.graphite-skin [id^='text'] h2,
+.graphite-skin [id^='meta'] h4,
+.graphite-skin [id^='meta'] h2,
+.graphite-skin [id^='archives'] h4,
+.graphite-skin [id^='archives'] h2 {
+    background-color: #37474f!important;
+    color: #fff!important;
+}
+.graphite-skin [id^='calendar'] thead tr th,
+.graphite-skin [id^='categories'] ul li span,
+.graphite-skin [id^='archives'] ul li span,
+.graphite-skin [id^='calendar'] tbody tr td a:hover{
+    background-color: #4E6068!important; /*#4285F4;  pagination color*/
+    color: #fff!important;
+}
+/* pink skin */
+.pink-skin [id^='calendar'] h4,
+.pink-skin [id^='calendar'] h2,
+.pink-skin [id^='pages'] h4,
+.pink-skin [id^='pages'] h2,
+.pink-skin [id^='categories'] h4,
+.pink-skin [id^='categories'] h2,
+.pink-skin [id^='recent-posts'] h4,
+.pink-skin [id^='recent-posts'] h2,
+.pink-skin [id^='recent-comments'] h4,
+.pink-skin [id^='recent-comments'] h2,
+.pink-skin [id^='rss'] h4,
+.pink-skin [id^='rss'] h2,
+.pink-skin [id^='tag_cloud'] h4,
+.pink-skin [id^='tag_cloud'] h2,
+.pink-skin [id^='text'] h4,
+.pink-skin [id^='text'] h2,
+.pink-skin [id^='meta'] h4,
+.pink-skin [id^='meta'] h2,
+.pink-skin [id^='archives'] h4,
+.pink-skin [id^='archives'] h2 {
+    background-color: #ab1550!important;
+    color: #fff!important;
+}
+.pink-skin [id^='calendar'] thead tr th,
+.pink-skin [id^='categories'] ul li span,
+.pink-skin [id^='archives'] ul li span,
+.pink-skin [id^='calendar'] tbody tr td a:hover{
+    background-color: #c2185b!important; /*#4285F4;  pagination color*/
+    color: #fff!important;
+}
+a.rsswidget {
+    color: #fff;
+}
+/* light-grey skin */
+.light-grey-skin [id^='calendar'] h4,
+.light-grey-skin [id^='calendar'] h2,
+.light-grey-skin [id^='pages'] h4,
+.light-grey-skin [id^='pages'] h2,
+.light-grey-skin [id^='categories'] h4,
+.light-grey-skin [id^='categories'] h2,
+.light-grey-skin [id^='recent-posts'] h4,
+.light-grey-skin [id^='recent-posts'] h2,
+.light-grey-skin [id^='recent-comments'] h4,
+.light-grey-skin [id^='recent-comments'] h2,
+.light-grey-skin [id^='rss'] h4,
+.light-grey-skin [id^='rss'] h2,
+.light-grey-skin [id^='tag_cloud'] h4,
+.light-grey-skin [id^='tag_cloud'] h2,
+.light-grey-skin [id^='text'] h4,
+.light-grey-skin [id^='text'] h2,
+.light-grey-skin [id^='meta'] h4,
+.light-grey-skin [id^='meta'] h2,
+.light-grey-skin [id^='archives'] h4,
+.light-grey-skin [id^='archives'] h2 {
+    background-color: #686868!important;
+    color: #fff!important;
+}
+.light-grey-skin [id^='calendar'] thead tr th,
+.light-grey-skin [id^='categories'] ul li span,
+.light-grey-skin [id^='archives'] ul li span,
+.light-grey-skin [id^='calendar'] tbody tr td a:hover{
+    background-color: #424242!important; /*#4285F4;  pagination color*/
+    color: #fff!important;
+}
+a.rsswidget {
+    color: #fff;
+}

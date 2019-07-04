@@ -1,0 +1,241 @@
+.features-widget-center {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.features-widget-bottom {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-content: flex-end;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.features-widget-top {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-content: flex-start;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.features-widget-flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.features-widget-reverse {
+    -webkit-flex-direction: row-reverse;
+    -moz-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    -o-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.features-widget .row:last-child p {
+    margin-bottom: 0;
+}
+
+.features-widget .row {
+    width: 100%;
+}
+
+.card-horizontal {
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+.card-horizontal {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .2);
+}
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.card-horizontal::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.card-horizontal-content,
+.card-horizontal-media {
+    width: 50%;
+}
+
+.card-horizontal-media {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+}
+
+.card-horizontal-content,
+.card-horizontal-media {
+    width: 50%;
+}
+
+.card-horizontal-content {
+    height: 100%;
+    width: 60%;
+    background-color: #fff;
+    float: right;
+    font-weight: 400;
+    min-height: 300px;
+    padding: 29px 29px 75px;
+    position: relative;
+}
+
+.card-horizontal-content-category {
+    font-size: 14px;
+}
+
+.card-horizontal-content {
+    height: 100%;
+    width: 60%;
+    background-color: #fff;
+    float: right;
+    font-weight: 400;
+    min-height: 300px;
+    padding: 29px 29px 75px;
+    position: relative;
+}
+
+.card-horizontal-content-title {
+    font-size: 23px;
+    letter-spacing: .4px;
+    line-height: 1.4;
+    margin-top: 6px;
+}
+
+.card-horizontal-content-body {
+    margin-top: 25px;
+}
+
+.body {
+    color: #616161;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 991px) {
+    .card-horizontal-media {
+        position: static;
+        height: 161px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .card-horizontal-content {
+        height: -webkit-calc(100% - 161px);
+        height: calc(100% - 161px);
+        float: none;
+        min-height: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .state-programs-top-fellowship-card {
+        display: block;
+        margin-right: 1.9305%;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .state-programs-top-fellowship-card {
+        display: block;
+        margin-right: 1.9305%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .card-horizontal-content {
+        height: -webkit-calc(100% - 161px);
+        height: calc(100% - 161px);
+        float: none;
+        min-height: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .card-horizontal-media {
+        position: static;
+        height: 161px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .state-programs-top-fellowship-card {
+        display: block;
+        margin-right: 1.9305%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .state-programs-top-fellowship-card {
+        display: block;
+        margin-right: 1.9305%;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card-horizontal-media {
+        position: static;
+        height: 161px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .card-horizontal-content {
+        float: none;
+        min-height: 0;
+        width: 100%;
+    }
+}
